@@ -35,14 +35,20 @@ Para facilitar o trabalho do departamento de RH na seleção de candidatos, as v
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contrata%C3%A7%C3%A3o?node-id=0%3A1)<br>
 
 ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/Desktop_Enterprise.png?raw=true "Title")
 
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+<!--[Protótipo Figma feito para Empresa GHHL Contratação]()-->
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
+    b) 5 principais relatório do sistema proposto!
+ 
+> A Empresa `GHHL Contratação` precisa inicialmente dos seguintes relatórios: 
+I: Relatório de todos os usuários do sistema.
+II: Relatório de candidatos cadastrados em vagas.
+III: Relatório de gerentes por filial.
+IV: Relatório de todas as vagas.
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
