@@ -84,8 +84,8 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Josué Ramos, Luiz Sampaio, Mateus Lannes]
+    [Grupo02]: [Hanna Letícia de Jesus, Higor Campos, Lucas de Souza]
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
@@ -99,6 +99,8 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+        
+    ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/Contrat_logico.png?raw=true "Modelo Conceitual")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
