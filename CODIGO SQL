@@ -1,0 +1,64 @@
+
+CREATE TABLE USUARIO(
+    VARCHAR(45) nome,
+    VARCHAR(45) cargo,
+    INTEGER id,
+    PRIMARY KEY(id),
+    INTEGER idade,
+);
+
+
+CREATE TABLE ENDERECO(
+    VARCHAR(45) tipo_logradouro,
+    VARCHAR(45) nome_logradouro,
+    VARCHAR(10) cep,
+    INTEGER numero PRIMARY KEY,
+
+    INTEGER fk_ges_filial_filial_id,
+    INTEGER fk_ges_filial_filial_gestor_id_fil,
+    INTEGER fk_ges_filial_filial_gestor_fk_usuario_id,
+    INTEGER fk_ges_filial_filial_id,
+
+    FOREIGN KEY (fk_ges_filial_filial_id) REFERENCES USUARIO(id),
+    FOREIGN KEY (fk_ges_filial_filial_gestor_id_fil) REFERENCES GES_FILIAL_FILIAL(id),
+    FOREIGN KEY (fk_ges_filial_filial_gestor_fk_usuario_id) REFERENCES USUARIO(id),
+    FOREIGN KEY(fk_ges_filial_filial_id) REFERENCES GES_FILIAL_FILIAL(id)
+);
+
+CREATE TABLE POSSUI(
+    INTEGER fk_usuario_id,
+    INTEGER fk_endereco_id,
+    FOREIGN KEY (fk_usuario_id) REFERENCES USUARIO(id),
+    FOREIGN key (fk_endereco_id) REFERENCES ENDERECO(id)
+);
+
+CREATE TABLE CANDIDATO(
+    VARCHAR(45) escolaridade,
+    VARCHAR(45) qualificacao,
+    INTEGER id_candidato PRIMARY KEY,
+    INTEGER fk_usuario_id,
+    Foreign Key (fk_usuario_id) REFERENCES USUARIO(id) 
+);
+
+CREATE TABLE CONCORRE(
+    INTEGER fk_candidato_id_candidato,
+    INTEGER fk_candidato_fk_usuario_id,
+    INTEGER fk_vaga_id,
+    Foreign Key (fk_candidato_id_candidato) REFERENCES CANDIDATO(id_candidato),
+    Foreign Key (fk_candidato_fk_usuario_id) REFERENCES CANDIDATO(fk_usuario_id),
+    Foreign Key (fk_vaga_id) REFERENCES VAGA(id)
+)
+
+CREATE TABLE VAGA(
+    VARCHAR(45) area,
+    INTEGER id PRIMARY KEY,
+    INTEGER carga_horaria,
+    VARCHAR(45) cargo,
+    INTEGER FK_CONTRATACAO_Id_cont,
+    INTEGER FK_CONTRATACAO_FK_GESTOR_Id,
+    INTEGER FK_CONTRATACAO_FK_GESTOR_FK_USUARIO_id,
+    Foreign Key (FK_CONTRATACAO_Id_cont) REFERENCES CONTRATACAO(id_cont)
+    Foreign Key (FK_CONTRATACAO_FK_GESTOR_Id) REFERENCES CONTRATACAO(FK_GESTOR_Id)
+    Foreign Key (FK_CONTRATACAO_FK_GESTOR_FK_USUARIO_id) REFERENCES CONTRATACAO(FK_GESTOR_FK_USUARIO_id)
+
+)
