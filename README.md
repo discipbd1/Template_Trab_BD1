@@ -88,7 +88,15 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
     [Grupo02]: [Hanna Letícia de Jesus, Higor Campos, Lucas de Souza]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
+    [USUARIO]: [Tabela que armazena usuários que utilizam o sistema]
+    [CANDIDATO]: [Tabela que armazena dados de usuários que são Candidatos as vagas]
+    [VAGA]: [Tabela que armazena dados de vagas Cadastradar pelo gestor de Contratação]
+    [GESTOR]:[Tabela que armazena gestor geral]
+    [CONTRATACAO]: [tabela que armazena gestor de contratacao que valida vagas]
+    [GES_FILIAL]: []
+    [FILIAL]:[]
+    [ENDERECO]:[]
+    
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
