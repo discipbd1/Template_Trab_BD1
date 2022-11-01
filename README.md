@@ -37,19 +37,27 @@ Protótipo navegavel em Figma<br>
 
 Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contrata%C3%A7%C3%A3o?node-id=0%3A1)<br>
 
-![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/Desktop_Enterprise.png?raw=true "Title")
+![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/Desktop_Enterprise.png?raw=true "Title")
 
 <!--[Protótipo Figma feito para Empresa GHHL Contratação]()-->
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-    b) 5 principais relatório do sistema proposto!
+    <!-- a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? -->
+    O sistema proposto `GHHL Contratação` fornecera relatórios sobre os usuários do sistema, vagas e filiais.
+    <!-- b) 5 principais relatório do sistema proposto! -->
  
 > A Empresa `GHHL Contratação` precisa inicialmente dos seguintes relatórios: 
 - I: Relatório de todos os usuários do sistema.
+    - Engloba todos os funcionarios da empresa, só usuários, gestores e candidatos
 - II: Relatório de candidatos cadastrados em vagas.
+    - Engloba os candidatos, vagas, cargos e areas.
 - III: Relatório de gerentes por filial.
+    - engloba gestores, tipos de gestores e filiais.
 - IV: Relatório de todas as vagas.
-- V: Relátorio de usuários cujo o endereço mais proximos de cada filial
+    - engloba vagas, cargos e areas.
+- V: Relátorio de usuários cujo o endereço mais proximos de cada filial.
+    engloba usuários, endereço, logradouro, bairro, cidade, estado, país.
+- VI: Relatório geral de todo o sistema:
+    engloba todas as relações do sistema, melhor vista em [4.3]().
     
 <!-- A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
