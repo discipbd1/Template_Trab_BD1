@@ -81,7 +81,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/ContrataçãoConceitual.png?raw=true "Modelo Conceitual")
  
     
-    
+![Alt text](https://github.com/jramso/Trab_BD1_2022/images/blob/master/conceitual.jpg?raw=true "Modelo Conceitual 2.0")
         
     
 #### 5.1 Validação do Modelo Conceitual
