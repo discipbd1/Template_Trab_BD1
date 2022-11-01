@@ -41,9 +41,9 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 
 <!--[Protótipo Figma feito para Empresa GHHL Contratação]()-->
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    <!-- a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? -->
+<!-- a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? -->
     O sistema proposto `GHHL Contratação` fornecera relatórios sobre os usuários do sistema, vagas e filiais.
-    <!-- b) 5 principais relatório do sistema proposto! -->
+<!-- b) 5 principais relatório do sistema proposto! -->
  
 > A Empresa `GHHL Contratação` precisa inicialmente dos seguintes relatórios: 
 - I: Relatório de todos os usuários do sistema.
