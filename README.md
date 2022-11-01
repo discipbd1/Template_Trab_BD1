@@ -78,7 +78,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/ContrataçãoConceitual.png?raw=true "Modelo Conceitual")
+<!-- ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/ContrataçãoConceitual.png?raw=true "Modelo Conceitual") -->
  
     
 ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/conceitual.jpg "Modelo Conceitual 2.0")
@@ -89,14 +89,47 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 
 #### 5.2 Descrição dos dados 
     [USUARIO]: [Tabela que armazena usuários que utilizam o sistema]
+        [id]: [codigo identificador do usuário]
+        [nome]:[nome de um usuário exemplo: Judas de Jesus]
+        [data_nasc]:[data de nascimento do usuário de onde se calcula a idade]
     [CANDIDATO]: [Tabela que armazena dados de usuários que são Candidatos as vagas]
+        [id_candidato]:[código identificador de candidato]
+        [descricao]: [informações de escolaridade do candidato descritas]
     [VAGA]: [Tabela que armazena dados de vagas Cadastradar pelo gestor de Contratação]
-    [GESTOR]:[Tabela que armazena gestor geral]
-    [CONTRATACAO]: [tabela que armazena gestor de contratacao que valida vagas]
-    [GES_FILIAL]: []
-    [FILIAL]:[]
-    [ENDERECO]:[]
-    
+        [id]:[codigo identificador da vaga]
+        [carga_horaria]:[tempo que será exercido ao contratado na vaga]
+    [CARGO]:[Tabela que armazena os cargos de funcionários e os cargos abertos a candidatura]
+        [id]: [codigo identificador de cargo]
+        [nome_cargo]:[nome do cargo de um usuario do sistema]
+    [AREA]:[Tabela que armazena as areas profissionais relacionadas da vaga]
+        [id]
+        [nome_area]
+    [GESTOR]:[Tabela que armazena gestores]
+        [id]: [identificador do `Gestor`]
+        [id_tipo]: [...]
+        [email]: [email de contato pelo qual o gestor e responsavel]
+    [TIPO_GESTOR]:[Tabela que separa gestores por tipo]
+        [id_tipo]: [identificador do tipo de gestor]
+        [nome_tipo]: [nome dos tipos de gestores: Geral, Vagas ou Filial]
+    [FILIAL]:[Tabela que armazena informações das filiais da empresa]
+        [id]:
+        [telefone_unico]:
+    [ENDERECO]:[Tabela que armazena endereço de usuarios e filiais]
+        [id]
+        [numero]
+        [cep]
+    [BAIRRO]:[Tabela que armazena os dados do bairro para o endereço]
+        [id]
+        [nome_bairro]
+    [CIDADE]:[Tabela que armazena os dados da cidade para o endereço]
+        [id]
+        [nome_cidade]
+    [ESTADO]:[Tabela que armazena os dados do estado para o endereço]
+        [id]
+        [nome_estado]
+    [PAIS]:[Tabela que armazena os dados do país para o endereço]
+        [id]
+        [nome_pais]
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
