@@ -8,22 +8,22 @@ Integrantes do grupo<br>
 Josué Ramos Souza: josue.rsou@gmail.com<br>
 Luiz Sampaio Horta: luizhorta2910@gmail.com<br>
 Mateus Lannes Cunha: mateuslannes100@gmail.com<br>
-...<br>
+<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados de <GHHL Contratação> 
 <br>e motivação da escolha realizada. <br>
 
  
- > Montar um sistema no estilo de um site online que consiga receber serviços de clientes contratantes da área de Tecnologia da Informação e também exibir vagas para candidatos com base nos modelos oferecidos pela empresa com formas de atuação remota, presencial ou híbrida, monitorar a contratação dos candidatos que se candidatarem às vagas, controlar informações de funcionários e filiais da empresa. Armazenar informações referentes a...
+ > Montar um sistema no estilo de um site online que consiga receber serviços de clientes contratantes da área de Tecnologia da Informação e também exibir vagas para candidatos com base nos modelos oferecidos pela empresa com formas de atuação remota, presencial ou híbrida, monitorar a contratação dos candidatos que se candidatarem às vagas, controlar informações de funcionários e filiais da empresa. Armazenar informações referentes a empresa e suas filiais, funcionarios e candidatos e as vagas oferecidas pela empresa.
 
 ### 3.MINI-MUNDO<br>
-
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
+## Descrição do Minimundo:
+<!-- Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
 Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida. -->
 
 <!-- O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
 -->
@@ -33,7 +33,7 @@ Para facilitar o trabalho do departamento de RH na seleção de candidatos, as v
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+Protótipo navegavel em Figma<br>
 
 Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contrata%C3%A7%C3%A3o?node-id=0%3A1)<br>
 
@@ -49,6 +49,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 - II: Relatório de candidatos cadastrados em vagas.
 - III: Relatório de gerentes por filial.
 - IV: Relatório de todas as vagas.
+- V: Relátorio de usuários cujo o endereço mais proximos de cada filial
     
 <!-- A Empresa DevCom precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
