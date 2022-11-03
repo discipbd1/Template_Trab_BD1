@@ -1,10 +1,10 @@
-`#CEFFF6`
-# TRABALHO 01:  Empresa de Contratação GHHL
+
+# TRABALHO 01:  Empresa de Contratação GHHL 
 Trabalho desenvolvido durante a disciplina de BD1
 
 
 # Sumário
-- [x] 1: [Componentes preenchidos](#1-componentes)
+- :white_check_mark: 1: [Componentes preenchidos](#1-componentes)
 - [x] #2 [Introdução e motivação](#2introdução-e-motivação)
 - [x] [Mini-mundo](#3mini-mundo)
 - [x] [Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
@@ -14,7 +14,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 - [x] [Modelo Conceitual](#5modelo-conceitual)
     - [ ] [Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
     - [ ] [Descrição dos dados]()
-
+```
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Josué Ramos Souza: josue.rsou@gmail.com<br>
