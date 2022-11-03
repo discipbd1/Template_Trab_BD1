@@ -9,8 +9,9 @@ Josué Ramos Souza: josue.rsou@gmail.com<br>
 Luiz Sampaio Horta: luizhorta2910@gmail.com<br>
 Mateus Lannes Cunha: mateuslannes100@gmail.com<br>
 <br>
-
+- [ ] componentes preenchidos 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
+
 Este documento contém a especificação do projeto do banco de dados de <GHHL Contratação> 
 <br>e motivação da escolha realizada. <br>
 
@@ -97,7 +98,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 
 #### 5.2 Descrição dos dados 
     [USUARIO]: [Tabela que armazena usuários que utilizam o sistema]
-        [id]: [codigo identificador do usuário]
+        [id]: [codigo identificador do usuário][PK]
         [nome]:[nome de um usuário exemplo: Judas de Jesus]
         [data_nasc]:[data de nascimento do usuário de onde se calcula a idade]
     [CANDIDATO]: [Tabela que armazena dados de usuários que são Candidatos as vagas]
@@ -110,14 +111,14 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
         [id]: [codigo identificador de cargo]
         [nome_cargo]:[nome do cargo de um usuario do sistema]
     [AREA]:[Tabela que armazena as areas profissionais relacionadas da vaga]
-        [id]
-        [nome_area]
+        [id]: [codigo identificador da area]
+        [nome_area]: [nome da area profissional exemplo: programação]
     [GESTOR]:[Tabela que armazena gestores]
-        [id]: [identificador do `Gestor`]
+        [id]: [identificador do `Gestor`] [PK]
         [id_tipo]: [...]
         [email]: [email de contato pelo qual o gestor e responsavel]
     [TIPO_GESTOR]:[Tabela que separa gestores por tipo]
-        [id_tipo]: [identificador do tipo de gestor]
+        [id_tipo]: [identificador do tipo de gestor][PK]
         [nome_tipo]: [nome dos tipos de gestores: Geral, Vagas ou Filial]
     [FILIAL]:[Tabela que armazena informações das filiais da empresa]
         [id]:
