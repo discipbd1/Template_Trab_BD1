@@ -1,11 +1,19 @@
+`#CEFFF6`
 # TRABALHO 01:  Empresa de Contratação GHHL
 Trabalho desenvolvido durante a disciplina de BD1
 
 
 # Sumário
-- [ ] #1 [Componentes preenchidos](#1-componentes)
-- [ ] componentes preenchidos
-- [ ] componentes preenchidos
+- [x] 1: [Componentes preenchidos](#1-componentes)
+- [x] #2 [Introdução e motivação](#2introdução-e-motivação)
+- [x] [Mini-mundo](#3mini-mundo)
+- [x] [Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
+    - [x] [Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
+    - [x] [Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
+    - [x] [Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
+- [x] [Modelo Conceitual](#5modelo-conceitual)
+    - [ ] [Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
+    - [ ] [Descrição dos dados]()
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
