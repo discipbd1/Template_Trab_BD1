@@ -4,18 +4,28 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 
 # Sumário
-
-- :white_check_mark: 1: [Componentes preenchidos](#1-componentes)
-- :white_check_mark: #2 [Introdução e motivação](#2introdução-e-motivação)
-- :white_check_mark: [Mini-mundo](#3mini-mundo)
-- :white_check_mark: [Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
-    - :white_check_mark: [Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
-    - :white_check_mark: [Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
-    - :white_check_mark: [Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
+## Entrega 1
+***
+- :white_check_mark: 1. [1. Componentes preenchidos](#1-componentes)
+- :white_check_mark: [2. Introdução e motivação](#2introdução-e-motivação)
+- :white_check_mark: [3. Mini-mundo](#3mini-mundo)
+- :white_check_mark: [4. Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
+    - 4.1:white_check_mark: 4.1 [Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
+    - 4.2:white_check_mark: 4.2 [Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
+    - :white_check_mark: 4.3 [Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
 - :white_check_mark: [Modelo Conceitual](#5modelo-conceitual)
     - [ ] [Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
-    - [ ] [Descrição dos dados]()
-```
+    - [ ] [Descrição dos dados](#52-descrição-dos-dados)
+- :white_check_mark: [Modelo Lógico](#6-modelo-lógico)
+- <!-- :white_check_mark: -->[ ] [Modelo Físico](#7-modelo-físico)
+- <!-- :white_check_mark: -->[ ] [Insert Tabelas](#8-insert-aplicado-nas-tabelas-do-banco-de-dados)
+- <!-- :white_check_mark: -->[ ] [Tabelas e Principais Consultas](#9-tabelas-e-principais-consultas)
+    - [ ] [Consulta das tabelas com todos os dados inseridos](#91-consultas-das-tabelas-com-todos-os-dados-inseridos-todas)
+***
+## Entrega 2
+***
+
+
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Josué Ramos Souza: josue.rsou@gmail.com<br>
