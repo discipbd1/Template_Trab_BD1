@@ -1,7 +1,11 @@
 # TRABALHO 01:  Empresa de Contratação GHHL
 Trabalho desenvolvido durante a disciplina de BD1
 
+
 # Sumário
+- [ ] #1 [Componentes preenchidos](#1-componentes)
+- [ ] componentes preenchidos
+- [ ] componentes preenchidos
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
@@ -9,7 +13,7 @@ Josué Ramos Souza: josue.rsou@gmail.com<br>
 Luiz Sampaio Horta: luizhorta2910@gmail.com<br>
 Mateus Lannes Cunha: mateuslannes100@gmail.com<br>
 <br>
-- [ ] componentes preenchidos 
+
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 
 Este documento contém a especificação do projeto do banco de dados de <GHHL Contratação> 
