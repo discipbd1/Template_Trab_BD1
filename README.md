@@ -4,14 +4,15 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 
 # Sumário
+
 - :white_check_mark: 1: [Componentes preenchidos](#1-componentes)
-- [x] #2 [Introdução e motivação](#2introdução-e-motivação)
-- [x] [Mini-mundo](#3mini-mundo)
-- [x] [Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
-    - [x] [Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
-    - [x] [Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
-    - [x] [Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
-- [x] [Modelo Conceitual](#5modelo-conceitual)
+- :white_check_mark: #2 [Introdução e motivação](#2introdução-e-motivação)
+- :white_check_mark: [Mini-mundo](#3mini-mundo)
+- :white_check_mark: [Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
+    - :white_check_mark: [Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
+    - :white_check_mark: [Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
+    - :white_check_mark: [Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
+- :white_check_mark: [Modelo Conceitual](#5modelo-conceitual)
     - [ ] [Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
     - [ ] [Descrição dos dados]()
 ```
