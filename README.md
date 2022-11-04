@@ -191,6 +191,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 ### 7 MODELO FÍSICO<br>
 <!-- a) inclusão das instruções de criacão das estruturas em SQL/DDL (criação de tabelas, alterações, etc..)  -->
 - LINK:  [GGHL_fisico](SQL/GHHL_Fisico.sql)
+- Banco no Elephant:
 
 ```sql
 CREATE TABLE USUARIO (
