@@ -14,7 +14,7 @@
 - :white_check_mark: [4. Prototipação](#4prototipação-perguntas-a-serem-respondidas-e-tabela-de-dados)
     - :white_check_mark: [4.1 Modelo figma](#41-rascunhos-básicos-da-interface-mockups)
     - :white_check_mark: [4.2 Perguntas](#42-quais-perguntas-podem-ser-respondidas-com-o-sistema-proposto)
-    - :white_check_mark: [4.3 Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
+    - :white_large_square: [4.3 Tabela de dados do Sistema](#43-tabela-de-dados-do-sistema)
 - :white_check_mark: [5. Modelo Conceitual](#5modelo-conceitual)
     - :white_large_square: [5.1 Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
     - :white_check_mark: [5.2 Descrição dos dados](#52-descrição-dos-dados)
