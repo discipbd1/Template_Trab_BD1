@@ -132,50 +132,62 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 - [Grupo01]: [Josué Ramos, Luiz Sampaio, Mateus Lannes]
 - [Grupo02]: [Hanna Letícia de Jesus, Higor Campos, Lucas de Souza]
 
-#### 5.2 Descrição dos dados 
-    [USUARIO]: [Tabela que armazena usuários que utilizam o sistema]
-        [id]: [codigo identificador do usuário][PK]
-        [nome]:[nome de um usuário exemplo: Judas de Jesus]
-        [data_nasc]:[data de nascimento do usuário de onde se calcula a idade]
-    [CANDIDATO]: [Tabela que armazena dados de usuários que são Candidatos as vagas]
-        [id_candidato]:[código identificador de candidato]
-        [descricao]: [informações de escolaridade do candidato descritas]
-    [VAGA]: [Tabela que armazena dados de vagas Cadastradar pelo gestor de Contratação]
-        [id]:[codigo identificador da vaga]
-        [carga_horaria]:[tempo que será exercido ao contratado na vaga]
-    [CARGO]:[Tabela que armazena os cargos de funcionários e os cargos abertos a candidatura]
-        [id]: [codigo identificador de cargo]
-        [nome_cargo]:[nome do cargo de um usuario do sistema]
-    [AREA]:[Tabela que armazena as areas profissionais relacionadas da vaga]
-        [id]: [codigo identificador da area]
-        [nome_area]: [nome da area profissional exemplo: programação]
-    [GESTOR]:[Tabela que armazena gestores]
-        [id]: [identificador do `Gestor`] [PK]
-        [id_tipo]: [...]
-        [email]: [email de contato pelo qual o gestor e responsavel]
-    [TIPO_GESTOR]:[Tabela que separa gestores por tipo]
-        [id_tipo]: [identificador do tipo de gestor][PK]
-        [nome_tipo]: [nome dos tipos de gestores: Geral, Vagas ou Filial]
-    [FILIAL]:[Tabela que armazena informações das filiais da empresa]
-        [id]:
-        [telefone_unico]:
-    [ENDERECO]:[Tabela que armazena endereço de usuarios e filiais]
-        [id]
-        [numero]
-        [cep]
-    [BAIRRO]:[Tabela que armazena os dados do bairro para o endereço]
-        [id]
-        [nome_bairro]
-    [CIDADE]:[Tabela que armazena os dados da cidade para o endereço]
-        [id]
-        [nome_cidade]
-    [ESTADO]:[Tabela que armazena os dados do estado para o endereço]
-        [id]
-        [nome_estado]
-    [PAIS]:[Tabela que armazena os dados do país para o endereço]
-        [id]
-        [nome_pais]
-    
+#### 5.2 Descrição dos dados
+
+|     **Entidade**    |  **Atributos** | **Descrição**                                                                               |
+|:-------------------:|:--------------:|---------------------------------------------------------------------------------------------|
+|     **USUARIO**     |        -       | **Tabela que armazena usuários que utilizam o sistema**                                     |
+|        **-**        |       id       | codigo identificador do usuário                                                             |
+|        **-**        |      nome      | nome de um usuário exemplo: Judas de Jesus                                                  |
+|        **-**        |    data_nasc   | data de nascimento do usuário de onde se calcula a idade                                    |
+|    **CANDIDATO**    |        -       | **Tabela que armazena dados de USUARIO que são Candidatos as vagas**                        |
+|        **-**        |  id_candidato  | código identificador de candidato                                                           |
+|        **-**        |    descricao   | informacoes de escolaridade do candidato descritas                                          |
+|       **VAGA**      |        -       | **Tabela que armazena dados de vagas Cadastradar pelo gestor de Contratação**               |
+|        **-**        |       id       | codigo identificador da vaga                                                                |
+|        **-**        |  carga_horaria | tempo que será exercido ao contratado na vaga                                               |
+|      **CARGO**      |        -       | **Tabela que armazena os cargos de funcionários e os cargos abertos a candidatura de VAGA** |
+|        **-**        |       id       | identificador do cargo                                                                      |
+|        **-**        |   nome_cargo   | nome do cargo que esta sendo ofertado a vaga ex: programador PHP                            |
+|       **AREA**      |        -       | **Tabela que armazena as areas profissionais de VAGA**                                      |
+|        **-**        |       id       | identificador de area                                                                       |
+|        **-**        |    nome_area   | nome de uma area exemplo: programação                                                       |
+|      **GESTOR**     |        -       | **Tabela que armazena dados USUARIO que são gestores**                                      |
+|        **-**        |       id       | identificador de gestor                                                                     |
+|        **-**        |      email     | email de domínio do gestor para contato                                                     |
+|   **TIPO_GESTOR**   |        -       | **Tabela que armazena os tipos possíveis de GESTOR**                                        |
+|        **-**        |     id_tipo    | identificador do tipo do gestor                                                             |
+|        **-**        |    nome_tipo   | nome do tipo do gestor ex: gestor de filial, gestor de vagas, gestor geral.                 |
+|      **FILIAL**     |        -       | **Tabela que armazena as filiais da empresa (e a sede)**                                    |
+|        **-**        |       id       | identificador de filial                                                                     |
+|        **-**        | telefone_unico | telefone de contato da filial                                                               |
+|        **-**        |  nome_fantasia | nome da filial separado do nome da sede                                                     |
+|     **ENDERECO**    |        -       | **Tabela que armazena endereços de usuarios e filiais**                                     |
+|        **-**        |       id       | identificador de endereço                                                                   |
+|        **-**        |     numero     | numero do endereco                                                                          |
+|        **-**        |       cep      | codigo de endereço postal                                                                   |
+|      **BAIRRO**     |        -       | **Tabela que armazena os bairros de ENDERECO**                                              |
+|        **-**        |       id       | identificador de bairro                                                                     |
+|        **-**        |   nome_bairro  | nome do bairro                                                                              |
+|      **CIDADE**     |        -       | **Tabela que armazena cidades de ENDERECO**                                                 |
+|        **-**        |       id       | identificador de cidade                                                                     |
+|        **-**        |   nome_cidade  | nome da cidade                                                                              |
+|      **ESTADO**     |        -       | **Tabela que armazena estados de ENDERECO**                                                 |
+|        **-**        |       id       | identificador de estado                                                                     |
+|        **-**        |   nome_estado  | nome do estado UF                                                                           |
+|       **PAIS**      |        -       | **Tabela que armazena países de ENDERECO**                                                  |
+|        **-**        |       id       | identificador de pais                                                                       |
+|        **-**        |    nome_pais   | nome do país                                                                                |
+|    **LOGRADOURO**   |        -       | **Tabela que armazena logradouros de ENDERECO**                                             |
+|        **-**        |       id       | identificador de logradouro                                                                 |
+|        **-**        |      nome      | nome do logradouro                                                                          |
+|        **-**        |   complemento  | complemento do logradouro ex: casa, apartamento                                             |
+| **TIPO_LOGRADOURO** |        -       | **Tabela que armazena os tipos possiveis de LOGRADOURO**                                    |
+|        **-**        |       id       | identificador de tipo de logradouro                                                         |
+|        **-**        |    nome_tipo   | nome do tipo de logradouro                                                                  |
+|        **-**        |   abreviatura  | abreviatura ou sigla do nome do tipo de logradouro                                          |
+
+
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
@@ -194,7 +206,7 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 - Banco no Elephant:
 
 
-![SQL](https://raw.githubusercontent.com/jramso/Trab_BD1_2022/master/SQL/GHHL_Fisico.sql)
+![SQL](https://github.com/jramso/Trab_BD1_2022/blob/master/SQL/GHHL_Fisico.sql?raw=true)
 
 
 ```sql
