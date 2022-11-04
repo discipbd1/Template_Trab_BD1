@@ -193,9 +193,9 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 - LINK:  [GGHL_fisico](SQL/GHHL_Fisico.sql)
 - Banco no Elephant:
 
-
+```sql
 ![SQL](https://github.com/jramso/Trab_BD1_2022/blob/master/SQL/GHHL_Fisico.sql?raw=true)
-
+```
 
 ```sql
 CREATE TABLE USUARIO (
