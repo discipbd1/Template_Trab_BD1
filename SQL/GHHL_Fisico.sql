@@ -1,0 +1,174 @@
+/* GHHL_Logico: */
+
+CREATE TABLE USUARIO (
+    id Integer PRIMARY KEY,
+    nome String,
+    data_nasc Integer
+);
+
+CREATE TABLE VAGA (
+    ID Integer PRIMARY KEY,
+    carga_horaria Integer,
+    FK_GESTOR_Id integer,
+    FK_CARGO Integer,
+    FK_AREA Integer
+);
+
+CREATE TABLE CANDIDATO (
+    descricao String,
+    qualificacao String,
+    id_candidato Integer,
+    FK_USUARIO_id Integer,
+    PRIMARY KEY (id_candidato, FK_USUARIO_id)
+);
+
+CREATE TABLE GESTOR (
+    Id integer PRIMARY KEY,
+    email String,
+    FK_USUARIO_id Integer,
+    id_tipo Integer
+);
+
+CREATE TABLE CARGO (
+    id Integer PRIMARY KEY,
+    nomeCargo String
+);
+
+CREATE TABLE BAIRRO (
+    id Integer PRIMARY KEY,
+    nome_bairro String
+);
+
+CREATE TABLE CIDADE (
+    id Integer PRIMARY KEY,
+    nome_cidade String
+);
+
+CREATE TABLE ENDERECO (
+    id Integer PRIMARY KEY,
+    cep varchar(10),
+    numero Integer,
+    FK_CIDADE_id Integer,
+    FK_BAIRRO_id Integer,
+    FK_ESTADO_id Integer,
+    FK_PAIS_id Integer,
+    FK_LOGRADOURO_id Integer
+);
+
+CREATE TABLE AREA (
+    id Integer PRIMARY KEY,
+    nome_area String
+);
+
+CREATE TABLE LOGRADOURO (
+    id Integer PRIMARY KEY,
+    nome String,
+    complemento String,
+    FK_TIPO_LOGRADOURO Integer
+);
+
+CREATE TABLE Possui (
+    fk_USUARIO_id Integer,
+    fk_ENDERECO_FILIAL_PAIS_id integer
+);
+
+CREATE TABLE TIPO_LOGRADOURO (
+    id Integer PRIMARY KEY,
+    nome_tipo String,
+    abreviatura String
+);
+
+CREATE TABLE ESTADO (
+    id Integer PRIMARY KEY,
+    nome_estado String
+);
+
+CREATE TABLE FILIAL (
+    id Integer PRIMARY KEY,
+    telefone_fixo String,
+    nome_fantasia String,
+    FK_ENDERECO Integer,
+    FK_GESTOR Integer
+);
+
+CREATE TABLE PAIS (
+    id Integer PRIMARY KEY,
+    nome_estado String
+);
+
+CREATE TABLE CONCORRE (
+    id Integer PRIMARY KEY,
+    FK_CANDIDATO Integer,
+    FK_VAGA Integer
+);
+
+CREATE TABLE TIPO_GESTOR (
+    id_tipo Integer PRIMARY KEY,
+    nome_tipo String
+);
+ 
+ALTER TABLE VAGA ADD CONSTRAINT FK_VAGA_2
+    FOREIGN KEY (FK_CARGO, FK_AREA???, FK_GESTOR_Id???)
+    REFERENCES CARGO (id);
+ 
+ALTER TABLE CANDIDATO ADD CONSTRAINT FK_CANDIDATO_2
+    FOREIGN KEY (FK_USUARIO_id)
+    REFERENCES USUARIO (id)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE GESTOR ADD CONSTRAINT FK_GESTOR_2
+    FOREIGN KEY (FK_USUARIO_id, id_tipo???)
+    REFERENCES USUARIO (id, ???);
+ 
+ALTER TABLE CARGO ADD CONSTRAINT FK_CARGO_2
+    FOREIGN KEY (FK_VAGA_ID)
+    REFERENCES VAGA (ID)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE ENDERECO ADD CONSTRAINT FK_ENDERECO_2
+    FOREIGN KEY (FK_CIDADE_id)
+    REFERENCES CIDADE (id)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE ENDERECO ADD CONSTRAINT FK_ENDERECO_3
+    FOREIGN KEY (FK_BAIRRO_id)
+    REFERENCES BAIRRO (id)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE ENDERECO ADD CONSTRAINT FK_ENDERECO_4
+    FOREIGN KEY (FK_PAIS_id???)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE ENDERECO ADD CONSTRAINT FK_ENDERECO_5
+    FOREIGN KEY (FK_ESTADO_id???)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE ENDERECO ADD CONSTRAINT FK_ENDERECO_6
+    FOREIGN KEY (FK_LOGRADOURO_id???)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE LOGRADOURO ADD CONSTRAINT FK_LOGRADOURO_2
+    FOREIGN KEY (FK_TIPO_LOGRADOURO???)
+    REFERENCES TIPO_LOGRADOURO (???);
+ 
+ALTER TABLE Possui ADD CONSTRAINT FK_Possui_1
+    FOREIGN KEY (fk_USUARIO_id)
+    REFERENCES USUARIO (id)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE Possui ADD CONSTRAINT FK_Possui_2
+    FOREIGN KEY (fk_ENDERECO_FILIAL_PAIS_id)
+    REFERENCES ??? (???);
+ 
+ALTER TABLE TIPO_LOGRADOURO ADD CONSTRAINT FK_TIPO_LOGRADOURO_2
+    FOREIGN KEY (FK_ESTADO_ENDERECO_FILIAL_PAIS_id???)
+    REFERENCES ??? (???)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE FILIAL ADD CONSTRAINT FK_FILIAL_2
+    FOREIGN KEY (FK_GESTOR???, FK_GESTOR???, FK_ENDERECO???)
+    REFERENCES ENDERECO (???, ???, ???);
+ 
+ALTER TABLE CONCORRE ADD CONSTRAINT FK_CONCORRE_2
+    FOREIGN KEY (FK_CANDIDATO???, FK_VAGA???)
+    REFERENCES ??? (???);
