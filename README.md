@@ -17,7 +17,7 @@ Trabalho desenvolvido durante a disciplina de BD1
     - [ ] [5.1 Validação do Modelo conceitual](#51-validação-do-modelo-conceitual)
     - [ ] [5.2 Descrição dos dados](#52-descrição-dos-dados)
 - :white_check_mark: [6. Modelo Lógico](#6-modelo-lógico)
-- :```white_check_mark:```[ ] [7. Modelo Físico](#7-modelo-físico)
+- :<white_check_mark:>[ ] [7. Modelo Físico](#7-modelo-físico)
 - <!-- :white_check_mark: -->[ ] [8. Insert Tabelas](#8-insert-aplicado-nas-tabelas-do-banco-de-dados)
 - <!-- :white_check_mark: -->[ ] [9. Tabelas e Principais Consultas](#9-tabelas-e-principais-consultas)
     - [ ] [Consulta das tabelas com todos os dados inseridos](#91-consultas-das-tabelas-com-todos-os-dados-inseridos-todas)
