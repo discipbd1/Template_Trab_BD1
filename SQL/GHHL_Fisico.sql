@@ -2,7 +2,7 @@
 
 CREATE TABLE USUARIO (
     id Integer PRIMARY KEY,
-    nome String,
+    nome VARCHAR(50),
     data_nasc Integer
 );
 
@@ -15,8 +15,8 @@ CREATE TABLE VAGA (
 );
 
 CREATE TABLE CANDIDATO (
-    descricao String,
-    qualificacao String,
+    descricao VARCHAR(50),
+    qualificacao VARCHAR(50),
     id_candidato Integer,
     FK_USUARIO_id Integer,
     PRIMARY KEY (id_candidato, FK_USUARIO_id)
@@ -24,24 +24,24 @@ CREATE TABLE CANDIDATO (
 
 CREATE TABLE GESTOR (
     Id integer PRIMARY KEY,
-    email String,
+    email VARCHAR(50),
     FK_USUARIO_id Integer,
     id_tipo Integer
 );
 
 CREATE TABLE CARGO (
     id Integer PRIMARY KEY,
-    nomeCargo String
+    nomeCargo VARCHAR(50)
 );
 
 CREATE TABLE BAIRRO (
     id Integer PRIMARY KEY,
-    nome_bairro String
+    nome_bairro VARCHAR(50)
 );
 
 CREATE TABLE CIDADE (
     id Integer PRIMARY KEY,
-    nome_cidade String
+    nome_cidade VARCHAR(50)
 );
 
 CREATE TABLE ENDERECO (
@@ -57,13 +57,13 @@ CREATE TABLE ENDERECO (
 
 CREATE TABLE AREA (
     id Integer PRIMARY KEY,
-    nome_area String
+    nome_area VARCHAR(50)
 );
 
 CREATE TABLE LOGRADOURO (
     id Integer PRIMARY KEY,
-    nome String,
-    complemento String,
+    nome VARCHAR(50),
+    complemento VARCHAR(50),
     FK_TIPO_LOGRADOURO Integer
 );
 
@@ -74,26 +74,26 @@ CREATE TABLE Possui (
 
 CREATE TABLE TIPO_LOGRADOURO (
     id Integer PRIMARY KEY,
-    nome_tipo String,
-    abreviatura String
+    nome_tipo VARCHAR(50),
+    abreviatura VARCHAR(50)
 );
 
 CREATE TABLE ESTADO (
     id Integer PRIMARY KEY,
-    nome_estado String
+    nome_estado VARCHAR(50)
 );
 
 CREATE TABLE FILIAL (
     id Integer PRIMARY KEY,
-    telefone_fixo String,
-    nome_fantasia String,
+    telefone_fixo VARCHAR(50),
+    nome_fantasia VARCHAR(50),
     FK_ENDERECO Integer,
     FK_GESTOR Integer
 );
 
 CREATE TABLE PAIS (
     id Integer PRIMARY KEY,
-    nome_estado String
+    nome_estado VARCHAR(50)
 );
 
 CREATE TABLE CONCORRE (
@@ -104,7 +104,7 @@ CREATE TABLE CONCORRE (
 
 CREATE TABLE TIPO_GESTOR (
     id_tipo Integer PRIMARY KEY,
-    nome_tipo String
+    nome_tipo VARCHAR(50)
 );
  
 ALTER TABLE VAGA ADD CONSTRAINT FK_VAGA_2

@@ -189,7 +189,119 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/logico_2.jpg?raw=true "Modelo Conceitual")
 
 ### 7 MODELO FÍSICO<br>
-    a) inclusão das instruções de criacão das estruturas em SQL/DDL (criação de tabelas, alterações, etc..) 
+<!-- a) inclusão das instruções de criacão das estruturas em SQL/DDL (criação de tabelas, alterações, etc..)  -->
+- LINK:  [GGHL_fisico](SQL/GHHL_Fisico.sql)
+
+```sql
+CREATE TABLE USUARIO (
+    id Integer PRIMARY KEY,
+    nome VARCHAR(50),
+    data_nasc Integer
+);
+
+CREATE TABLE VAGA (
+    ID Integer PRIMARY KEY,
+    carga_horaria Integer,
+    FK_GESTOR_Id integer,
+    FK_CARGO Integer,
+    FK_AREA Integer
+);
+
+CREATE TABLE CANDIDATO (
+    descricao VARCHAR(50),
+    qualificacao VARCHAR(50),
+    id_candidato Integer,
+    FK_USUARIO_id Integer,
+    PRIMARY KEY (id_candidato, FK_USUARIO_id)
+);
+
+CREATE TABLE GESTOR (
+    Id integer PRIMARY KEY,
+    email VARCHAR(50),
+    FK_USUARIO_id Integer,
+    id_tipo Integer
+);
+
+CREATE TABLE CARGO (
+    id Integer PRIMARY KEY,
+    nomeCargo VARCHAR(50)
+);
+
+CREATE TABLE BAIRRO (
+    id Integer PRIMARY KEY,
+    nome_bairro VARCHAR(50)
+);
+
+CREATE TABLE CIDADE (
+    id Integer PRIMARY KEY,
+    nome_cidade VARCHAR(50)
+);
+
+CREATE TABLE ENDERECO (
+    id Integer PRIMARY KEY,
+    cep varchar(10),
+    numero Integer,
+    FK_CIDADE_id Integer,
+    FK_BAIRRO_id Integer,
+    FK_ESTADO_id Integer,
+    FK_PAIS_id Integer,
+    FK_LOGRADOURO_id Integer
+);
+
+CREATE TABLE AREA (
+    id Integer PRIMARY KEY,
+    nome_area VARCHAR(50)
+);
+
+CREATE TABLE LOGRADOURO (
+    id Integer PRIMARY KEY,
+    nome VARCHAR(50),
+    complemento VARCHAR(50),
+    FK_TIPO_LOGRADOURO Integer
+);
+
+CREATE TABLE Possui (
+    fk_USUARIO_id Integer,
+    fk_ENDERECO_FILIAL_PAIS_id integer
+);
+
+CREATE TABLE TIPO_LOGRADOURO (
+    id Integer PRIMARY KEY,
+    nome_tipo VARCHAR(50),
+    abreviatura VARCHAR(50)
+);
+
+CREATE TABLE ESTADO (
+    id Integer PRIMARY KEY,
+    nome_estado VARCHAR(50)
+);
+
+CREATE TABLE FILIAL (
+    id Integer PRIMARY KEY,
+    telefone_fixo VARCHAR(50),
+    nome_fantasia VARCHAR(50),
+    FK_ENDERECO Integer,
+    FK_GESTOR Integer
+);
+
+CREATE TABLE PAIS (
+    id Integer PRIMARY KEY,
+    nome_estado VARCHAR(50)
+);
+
+CREATE TABLE CONCORRE (
+    id Integer PRIMARY KEY,
+    FK_CANDIDATO Integer,
+    FK_VAGA Integer
+);
+
+CREATE TABLE TIPO_GESTOR (
+    id_tipo Integer PRIMARY KEY,
+    nome_tipo VARCHAR(50)
+);
+
+```
+
         
        
 ### 8 INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
