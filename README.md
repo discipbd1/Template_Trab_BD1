@@ -1,11 +1,13 @@
 
 # TRABALHO 01:  Empresa de Contratação GHHL 
-Trabalho desenvolvido durante a disciplina de BD1
+>Trabalho desenvolvido durante a disciplina de BD1
 
-
+***
 # Sumário
+
 ## Entrega 1
 ***
+
 - :white_check_mark: [1. Componentes preenchidos](#1-componentes)
 - :white_check_mark: [2. Introdução e motivação](#2introdução-e-motivação)
 - :white_check_mark: [3. Mini-mundo](#3mini-mundo)
@@ -31,7 +33,7 @@ Trabalho desenvolvido durante a disciplina de BD1
   - :white_large_square:[9.6 Consultas com INNER JOIN e ORDER BY](#96-consultas-com-inner-join-e-order-by-mínimo-6)
   - :white_large_square:[9.7 Consultas com GROUP BY e funções de agrupamento](#97-consultas-com-group-by-e-funções-de-agrupamento-mínimo-6)
   - :white_large_square:[9.8 Consultas com LEFT, RIGHT e FULL JOIN](#98-consultas-com-left-right-e-full-join-mínimo-4)
-  - :white_large_square:[9.9 Consultas com SELF JOIN e VIEW](#99-consultas-com-self-join-e-view-mínimo-6)
+  - :white_large_square:[9.9 Consultas com SELF JOIN e VIEW](#9.9-consultas-com-self-join-e-view-mínimo-6)
   - :white_large_square:[9.10 Subconsultas](#910-subconsultas-mínimo-4)
 ***
 ## Entrega 3
