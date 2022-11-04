@@ -114,23 +114,23 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
     
     
 ### 5.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
+
+<!-- A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
         * informe quais são as 3 principais entidades do sistema em densenvolvimento<br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
     C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
     D) Qualidade e Clareza
         Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
-        
-<!-- ![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/ContrataçãoConceitual.png?raw=true "Modelo Conceitual") -->
- 
-    
-![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/conceitual_2.jpg "Modelo Conceitual 2.0")
+        e tuplas falsas (Aplicar os conceitos de normalização abordados).    -->
+
+
+
+![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/conceitual_2.jpg?raw=true "Modelo Conceitual 2.0")
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Josué Ramos, Luiz Sampaio, Mateus Lannes]
-    [Grupo02]: [Hanna Letícia de Jesus, Higor Campos, Lucas de Souza]
+- [Grupo01]: [Josué Ramos, Luiz Sampaio, Mateus Lannes]
+- [Grupo02]: [Hanna Letícia de Jesus, Higor Campos, Lucas de Souza]
 
 #### 5.2 Descrição dos dados 
     [USUARIO]: [Tabela que armazena usuários que utilizam o sistema]
@@ -182,16 +182,20 @@ Link:[Protótipo Figma](https://www.figma.com/file/dNvctCDrX3DbqgeguQBRIV/Contra
 
 
 ### 6 MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
+<!-- a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+        (não serão aceitos modelos que não estejam em conformidade) -->
         
-![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/logico_2.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/jramso/Trab_BD1_2022/blob/master/images/logico_2.jpg?raw=true "Modelo Logico")
 
 ### 7 MODELO FÍSICO<br>
 <!-- a) inclusão das instruções de criacão das estruturas em SQL/DDL (criação de tabelas, alterações, etc..)  -->
 - LINK:  [GGHL_fisico](SQL/GHHL_Fisico.sql)
 - Banco no Elephant:
+
+
+![SQL](https://github.com/jramso/Trab_BD1_2022/blob/master/SQL/GHHL_Fisico.sql?raw=true)
+
 
 ```sql
 CREATE TABLE USUARIO (
