@@ -27,7 +27,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 - - :white_medium_square:[9.2 Consulta das tabelas com filtros `WHERE`](#92-consultas-das-tabelas-com-filtros-where-mínimo-4)
   - :white_medium_square:[9.3 Consultas L.A e tabelas ou campos renomeados](#93-consultas-que-usam-operadores-lógicos-aritméticos-e-tabelas-ou-campos-renomeados-mínimo-11)
   - :white_medium_square:[9.4 Consultas Like e Datas](#94-consultas-que-usam-operadores-like-e-datas-mínimo-12)
-  - :white_medium_square:[9.5 Instruções aplicando atualização e exclusão de dados](#95-instruções-aplicando-atualização-e-exclusão-de-dados-mínimo-6)
+  - :white_square:[9.5 Instruções aplicando atualização e exclusão de dados](#95-instruções-aplicando-atualização-e-exclusão-de-dados-mínimo-6)
   - :white_medium_square:[9.6 Consultas com INNER JOIN e ORDER BY](#96-consultas-com-inner-join-e-order-by-mínimo-6)
   - :white_medium_square:[9.7 Consultas com GROUP BY e funções de agrupamento](#97-consultas-com-group-by-e-funções-de-agrupamento-mínimo-6)
   - :white_medium_square:[9.8 Consultas com LEFT, RIGHT e FULL JOIN](#98-consultas-com-left-right-e-full-join-mínimo-4)
