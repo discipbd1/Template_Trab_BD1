@@ -5,9 +5,11 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:Yasmimnunes.yn@gmail.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...<br>
+Cleiton Gomes dos Santos:cleitongomes@ucl.br<br>
+Marianna Almeida Santos:marianna.almeidasa@gmail.com<br>
+Murilo Andrade Carvalho:muriloandradec@gmail.com<br>
+Yasmim Da Silva Nunes:yasmimnunes.yn@gmail.com<br>
+
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
