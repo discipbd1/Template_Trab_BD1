@@ -5,10 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Cleiton Gomes dos Santos:cleitongomes@ucl.br<br>
-Marianna Almeida Santos:marianna.almeidasa@gmail.com<br>
-Murilo Andrade Carvalho:muriloandradec@gmail.com<br>
-Yasmim Da Silva Nunes:yasmimnunes.yn@gmail.com<br>
+Cleiton Gomes dos Santos: cleitongomes@ucl.br<br>
+Marianna Almeida Santos: marianna.almeidasa@gmail.com<br>
+Murilo Andrade Carvalho: muriloandradec@gmail.com<br>
+Yasmim Da Silva Nunes: yasmimnunes.yn@gmail.com<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
