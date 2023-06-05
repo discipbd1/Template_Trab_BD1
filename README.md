@@ -60,7 +60,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/moleto_conceitual.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/molelo_conceitual.png?raw=true "Modelo Conceitual")
     
     
         
