@@ -71,7 +71,6 @@ A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
     - PESSOA: Tabela que armazena as informações relativas ao cliente ou funcionário;
     - nome: campo que armazena o nome da pessoa; 
     - sexo:  campo que armazena o sexo da pessoa;
