@@ -34,11 +34,11 @@ Segue abaixo o link do prototipo desenvolvido para a empresa <br>
 > O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários. 
 A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
-> - Relatório que mostre os tipos de equipamentos e  as suas respectivas quantidades;
-> - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf......
-> - Relatório que mostre os status de aprovação ou negação de um pedido de empréstimo de um cliente;
-> - Relatório contato os nomes dos clientes com as seguintes informações ....
-> - Relaório da saida de equipamentos contendo o códio, data_saida e data_chegada. 
+> - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
+> - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula. 
+> - Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
+> - Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço.
+ 
 
  
  
