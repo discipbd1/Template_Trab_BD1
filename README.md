@@ -86,6 +86,48 @@ A Empresa MCMY precisa inicialmente dos seguintes relatórios:
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
         (criação de tabelas, alterações, etc..) 
         
+CREATE TABLE pessoa( cod int, nome varchar(100), sexo varchar(100),data_nasc date, cpf varchar(12),  senha varchar(100), endereco varchar(300),
+PRIMARY key (cod)
+);
+
+CREATE TABLE contato_tipo( cod int, descricao varchar(300),
+PRIMARY key (cod)
+);
+
+CREATE TABLE contato( cod int, contato varchar(100), contato_tipo_cod int,
+PRIMARY key (cod),
+FOREIGN key (contato_tipo_cod) REFERENCES contato_tipo(cod)
+
+);
+CREATE TABLE possui( pessoa_cod int, contato_cod int,
+FOREIGN key (contato_cod) REFERENCES contato(cod),
+FOREIGN key (pessoa_cod) REFERENCES pessoa(cod)
+);
+
+CREATE TABLE tipo_equipamento( cod int, nome varchar(100),
+PRIMARY key (cod)
+);
+
+CREATE TABLE equipamento( cod int, tipo_equipamento_cod int, data_fabricacao date, modelo varchar(100), marca varchar(100), valor_locacao decimal,
+PRIMARY key (cod),
+FOREIGN key (tipo_equipamento_cod) REFERENCES tipo_equipamento(cod)
+);
+
+CREATE TABLE funcionario( matricula int, pessoa_cod int,
+PRIMARY key (matricula ),
+FOREIGN key (pessoa_cod) REFERENCES pessoa(cod)
+);
+
+CREATE TABLE emprestimo( cod int, pessoa_cod int, funcionario_cod int,  data_solicitacao date, valor_solicitacao decimal, status boolean, data_validacao date, 
+PRIMARY key (cod),
+FOREIGN key (pessoa_cod) REFERENCES pessoa(cod),
+FOREIGN key (funcionario_cod) REFERENCES funcionario(matricula)
+);
+
+CREATE TABLE destinado( quantidade int, emprestimo_cod int, equipamento_cod int,
+FOREIGN key (emprestimo_cod) REFERENCES emprestimo(cod),
+FOREIGN key (equipamento_cod) REFERENCES equipamento(cod)
+);
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
