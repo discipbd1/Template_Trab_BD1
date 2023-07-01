@@ -72,8 +72,8 @@ A Empresa MCMY precisa inicialmente dos seguintes relatórios:
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    - PESSOA: Tabela que armazena as informações relativas a pessoa;
+    - CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 
 ### 6	MODELO LÓGICO<br>
