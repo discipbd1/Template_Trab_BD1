@@ -25,7 +25,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Segue abaixo o link do prototipo desenvolvido para a empresa <br>
 
-[PROTOTIPO-SITE](https://trabalhobancodedados.github.io/site-prototipo/)
+[PROTOTIPO-SITE](https://trabalhobancodedados.github.io/Prototipo-site/)
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
