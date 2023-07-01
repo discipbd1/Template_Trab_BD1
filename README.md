@@ -72,9 +72,47 @@ A Empresa MCMY precisa inicialmente dos seguintes relatórios:
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
-    - PESSOA: Tabela que armazena as informações relativas a pessoa;
-    - CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    - PESSOA: Tabela que armazena as informações relativas ao cliente ou funcionário;
+    - nome: campo que armazena o nome da pessoa; 
+    - sexo:  campo que armazena o sexo da pessoa;
+    - data_nasc: campo que armazena da data de nascimento da pessoa; 
+    - CPF: campo que armazena o número de cadastro da pessoa;
+    - senha: campo que armazena a senha de login da pessoa;
+    - codigo: campo que armazena determinado codigo de uma pessoa;
+    - endereco: campo que armazena o endereço da pessoa;
+    - fk_PESSOA_codigo: campo que armazena codigo de uma pessoa cadastrada;
+    - fk_CONTATO_codigo: campo que armazena o codigo relacionado ao contato de uma pessoa;
+    - CONTATO: Tabela que armazena o contato de uma pessoa;
+    - contato: campo que armazena o contato de uma pessoa;
+    - codigo: campo que armazena o codigo de uma pessoa de uma determinado contato;
+    - FK_CONTATO_TIPO_codigo: campo que armazena o tipo de contato de uma derteminada pessoa;
+    - CONTATO_TIPO: Tabela que armazena o tipo de contato que a passoa cadastrou;
+    - descricao: campo que armazena o tipo de contato (telefone/e-mai/etc);
+    - codigo: campo que armazena a pessoa ligada ao contato cadastrado;
+    - FUNCIONARIO: tabela que armazena o cadastro do funcionário na empresa;
+    - matricula: campo que armazena a matricula do funcionário;
+    - FK_PESSOA_codigo: campo que armazena o codigo do funcionário cadastrado;
+    - EMPRESTIMO: Tabela que armazena o emprestimo da pessoa;
+    - data_solicitacao: campo que armazena a data de soliciação da pessoa para eprestimo;
+    - valor_solicitação: campo que armazena o valor da solicitação da pessoa;
+    - codigo: campo que armazena o codigo do emprestimo;
+    - data_validacao: data em que foi gerada a validação do funcionpario;
+    - fk_FUNCIONARIO_matricula: campo que armazrna a matricula do funcionário que gerou a validacao;
+    - fk_PESSOA_codigo: campo que armazena o codigo da pessoa que realizou a solicitação;
+    - fk_Emprestimo_codigo: campo que armazena o codigo do emprestimo;
+    - fk_EQUIPAMENTO_codigo: campo que armazena o codigo do equipameno requisitado;
+    - quantidade: campo que armazena a quantidade de equipamento que a pessoa solicitou;
+    - EQUIPAMENTO: Tabela que armazena os equipamentos;
+    - data_fabricacao: campo que armazena a data de fabricação do equipamento;
+    - modelo: campo que armazena o modelo do equipemento:
+    - marca: campo que armazena a marca do equipamento.
+    - codigo: campo que armazena o codigo do equipamento;
+    - valor_locacao: campo que armazena o valor da locaçao do equipamento;
+    - FK_TIPO_EQUIPAMENTO_codigo: campo que armazena o campo de um determinado tipo de equipamento;
+    - TIPO_EQUIPAMENTO: Tabela que armazena um determinado tipo de equipamento;
+    - codigo: campo que armazena um determinado equipamento;
+    - nome: campo que armazena o nome do equipamento.
+    
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
