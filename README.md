@@ -610,10 +610,12 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-- 9.1.3 Imagens referentes ao comando **__*Imagem*__**
+- 9.1.3 Imagens referentes ao comando **__*select * from contato*__**
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-contato1.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-contato2.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-contato3.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-contato4.PNG)
 ____________________________________________________________________________________________
 
 
