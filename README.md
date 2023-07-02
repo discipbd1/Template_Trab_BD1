@@ -85,48 +85,85 @@ ________________________________________________________________________________
     [objeto]: [descrição do objeto]
     
     ____________________________________________________________________________________________
-
-    
     - PESSOA: Tabela que armazena as informações relativas ao cliente ou funcionário;
-    - nome: campo que armazena o nome da pessoa; 
+    ____________________________________________________________________________________________
+    - nome: campo que armazena o nome da pessoa;
+    ____________________________________________________________________________________________ 
     - sexo:  campo que armazena o sexo da pessoa;
-    - data_nasc: campo que armazena da data de nascimento da pessoa; 
+    ____________________________________________________________________________________________
+    - data_nasc: campo que armazena da data de nascimento da pessoa;
+    ____________________________________________________________________________________________ 
     - CPF: campo que armazena o número de cadastro da pessoa;
+    ____________________________________________________________________________________________
     - senha: campo que armazena a senha de login da pessoa;
+    ____________________________________________________________________________________________
     - codigo: campo que armazena determinado codigo de uma pessoa;
+    ____________________________________________________________________________________________
     - endereco: campo que armazena o endereço da pessoa;
+    ____________________________________________________________________________________________
     - fk_PESSOA_codigo: campo que armazena codigo de uma pessoa cadastrada;
+    ____________________________________________________________________________________________
     - fk_CONTATO_codigo: campo que armazena o codigo relacionado ao contato de uma pessoa;
+    ____________________________________________________________________________________________
     - CONTATO: Tabela que armazena o contato de uma pessoa;
+    ____________________________________________________________________________________________
     - contato: campo que armazena o contato de uma pessoa;
+    ____________________________________________________________________________________________
     - codigo: campo que armazena o codigo de uma pessoa de uma determinado contato;
+    ____________________________________________________________________________________________
     - FK_CONTATO_TIPO_codigo: campo que armazena o tipo de contato de uma derteminada pessoa;
+    ____________________________________________________________________________________________
     - CONTATO_TIPO: Tabela que armazena o tipo de contato que a passoa cadastrou;
+    ____________________________________________________________________________________________
     - descricao: campo que armazena o tipo de contato (telefone/e-mai/etc);
+    ____________________________________________________________________________________________
     - codigo: campo que armazena a pessoa ligada ao contato cadastrado;
+    ____________________________________________________________________________________________
     - FUNCIONARIO: tabela que armazena o cadastro do funcionário na empresa;
+    ____________________________________________________________________________________________
     - matricula: campo que armazena a matricula do funcionário;
+    ____________________________________________________________________________________________
     - FK_PESSOA_codigo: campo que armazena o codigo do funcionário cadastrado;
+    ____________________________________________________________________________________________
     - EMPRESTIMO: Tabela que armazena o emprestimo da pessoa;
+    ____________________________________________________________________________________________
     - data_solicitacao: campo que armazena a data de soliciação da pessoa para eprestimo;
+    ____________________________________________________________________________________________
     - valor_solicitação: campo que armazena o valor da solicitação da pessoa;
+    ____________________________________________________________________________________________
     - codigo: campo que armazena o codigo do emprestimo;
+    ____________________________________________________________________________________________
     - data_validacao: data em que foi gerada a validação do funcionpario;
+    ____________________________________________________________________________________________
     - fk_FUNCIONARIO_matricula: campo que armazrna a matricula do funcionário que gerou a validacao;
+    ____________________________________________________________________________________________
     - fk_PESSOA_codigo: campo que armazena o codigo da pessoa que realizou a solicitação;
+    ____________________________________________________________________________________________
     - fk_Emprestimo_codigo: campo que armazena o codigo do emprestimo;
+    ____________________________________________________________________________________________
     - fk_EQUIPAMENTO_codigo: campo que armazena o codigo do equipameno requisitado;
+    ____________________________________________________________________________________________
     - quantidade: campo que armazena a quantidade de equipamento que a pessoa solicitou;
+    ____________________________________________________________________________________________
     - EQUIPAMENTO: Tabela que armazena os equipamentos;
+    ____________________________________________________________________________________________
     - data_fabricacao: campo que armazena a data de fabricação do equipamento;
-    - modelo: campo que armazena o modelo do equipemento:
-    - marca: campo que armazena a marca do equipamento.
+    ____________________________________________________________________________________________
+    - modelo: campo que armazena o modelo do equipemento;
+    ____________________________________________________________________________________________
+    - marca: campo que armazena a marca do equipamento;
+    ____________________________________________________________________________________________
     - codigo: campo que armazena o codigo do equipamento;
+    ____________________________________________________________________________________________
     - valor_locacao: campo que armazena o valor da locaçao do equipamento;
+    ____________________________________________________________________________________________
     - FK_TIPO_EQUIPAMENTO_codigo: campo que armazena o campo de um determinado tipo de equipamento;
+    ____________________________________________________________________________________________
     - TIPO_EQUIPAMENTO: Tabela que armazena um determinado tipo de equipamento;
+    ____________________________________________________________________________________________
     - codigo: campo que armazena um determinado equipamento;
-    - nome: campo que armazena o nome do equipamento.
+    ____________________________________________________________________________________________
+    - nome: campo que armazena o nome do equipamento;
 
 ____________________________________________________________________________________________    
 
