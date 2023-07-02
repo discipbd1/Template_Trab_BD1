@@ -839,37 +839,78 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+#### 9.2    CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 ____________________________________________________________________________________________
+
 - 9.2.1 Imagens referentes ao comando **__*select * from pessoa where sexo = 'M'*__**
 
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-sexo-m-pessoa1.PNG)
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-sexo-m-pessoa2.PNG)
 
-____________________________________________________________________________________________
+
 
 ____________________________________________________________________________________________
 - 9.2.2 Imagens referentes ao comando **__*select * from pessoa where data_nasc < '1986-09-12'*__**
 
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-data-nasc1.PNG)
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-data-nasc2.PNG)
+
 ____________________________________________________________________________________________
 - 9.2.3 Imagens referentes ao comando **__*select * from emprestimo where valor_solicitacao < 1000*__**
 
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-solicitacao1.PNG)
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-solicitacao2.PNG)
+
 ____________________________________________________________________________________________
 - 9.2.4 Imagens referentes ao comando **__*select * from equipamento where valor_locacao > 300*__**
 
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-locacao1.PNG)
 ![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-locacao2.PNG)
+
 ____________________________________________________________________________________________
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+____________________________________________________________________________________________
+
+- 9.3.1 Imagens referentes aos Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/01operador-and01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.3.1 Imagens referentes aos Comando **__*select * from equipamento where valor_locacao = 350 or valor_locacao < 200*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/02operador-or1.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/02operador-or2.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where valor_solicitacao = 1000 or valor_solicitacao > 2000*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/03operador-or1.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/03operador-or2.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where (valor_solicitacao < 400 and valor_solicitacao >= 350)  or status is false*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/04operador-or1.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where valor_solicitacao < 400   and status is true*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/05operador-and01.PNG)
+
+____________________________________________________________________________________________
+
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
