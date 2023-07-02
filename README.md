@@ -1,36 +1,42 @@
+____________________________________________________________________________________________
 # TRABALHO 01:  Empresa MCMY
 Trabalho desenvolvido durante a disciplina de BD1
+____________________________________________________________________________________________
 
 # Sumário
-
+____________________________________________________________________________________________
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
+____________________________________________________________________________________________
 Cleiton Gomes dos Santos: cleitongomes@ucl.br<br>
 Marianna Almeida Santos: marianna.almeidasa@gmail.com<br>
 Murilo Andrade Carvalho: muriloandradec@gmail.com<br>
 Yasmim Da Silva Nunes: yasmimnunes.yn@gmail.com<br>
 
-
+____________________________________________________________________________________________
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
-
+____________________________________________________________________________________________
 > A empresa MCMY visa colaborar com desenvolvimento de projetos para melhora da locação de equipamentos e de ferramentas em geral. Sabendo-se dos desafios para gerenciar um sistema de aluguel dentro de uma empresa e visando unir as informações referentes a clientes, funcionários, equipamentos, contratos, renovação e manutenção em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "MCMY" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de empresas (filiais). Para realizar suas operações adequadamente e a empresa necessita que o sistema armazene informações relativas aos dados (contato, endereços, dados dos equipamentos), empregados. Além de também armazenar dados sobre aprovação de aluguel.
- 
+ ____________________________________________________________________________________________
 ### 3.MINI-MUNDO<br>
 
 > Em um determinado sistema para locação de equipamentos em geral que visa facilitar a gestão de locação. Dessa maneira, o sistema precisa controlar os equipamentos através da identificação, tipo ( equipamentos de uso geral), data de fabricação, modelo, marca e valor da locação. O sistema também deve permitir o controle de clientes através do nome, data nescimento, sexo, cpf, endereço, senha e contato(telefone, e-mail, WhatsApp ou Telegram) . Além disso, precisa-se controlar os empréstimos dos equipamentos através da identificação,data da solitação, valor da solicitação, data da validação e status(aprovado ou reprovado). O funcionário possui uma matrícula e gerencia os empréstimos. No ato de locação de um determinado equipamento emprestado, o cliente deve assinar o termo de responsabilidade, onde ele se responsabiliza por quaisquer danos ao equipamento. O sistema deve permite que um cliente pegue mais do que um equipamento.
+____________________________________________________________________________________________
 
 ### 4.PROTOTIPAÇÃO, PERGUNTAS A SEREM RESPONDIDAS E TABELA DE DADOS<br>
+____________________________________________________________________________________________
 #### 4.1 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Segue abaixo o link do prototipo desenvolvido para a empresa <br>
 
 [PROTOTIPO-SITE](https://trabalhobancodedados.github.io/Prototipo-site/)
-
+____________________________________________________________________________________________
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
 
+____________________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
     
 > - O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários. 
@@ -40,15 +46,15 @@ Segue abaixo o link do prototipo desenvolvido para a empresa <br>
 > - Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço.
  
 
- 
+ ____________________________________________________________________________________________
  
 #### 4.3 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    
+    ____________________________________________________________________________________________
 ![Exemplo de Tabela de dados da Empresa MCMY](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/arquivos/TabelaEmpresaMCMY_sample.xlsx?raw=true "Tabela - Empresa MCMY")
     
-    
+    ____________________________________________________________________________________________
 ### 5.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
     B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
@@ -59,18 +65,23 @@ Segue abaixo o link do prototipo desenvolvido para a empresa <br>
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
+        ____________________________________________________________________________________________
+
 ![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_conceitual_final.png?raw=true "Modelo Conceitual")
     
     
         
-    
+    ____________________________________________________________________________________________
+
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
+____________________________________________________________________________________________
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
     
+    ____________________________________________________________________________________________
     - PESSOA: Tabela que armazena as informações relativas ao cliente ou funcionário;
     - nome: campo que armazena o nome da pessoa; 
     - sexo:  campo que armazena o sexo da pessoa;
@@ -111,13 +122,16 @@ Segue abaixo o link do prototipo desenvolvido para a empresa <br>
     - TIPO_EQUIPAMENTO: Tabela que armazena um determinado tipo de equipamento;
     - codigo: campo que armazena um determinado equipamento;
     - nome: campo que armazena o nome do equipamento.
-    
+
+____________________________________________________________________________________________    
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
 ![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_logico_final2.png?raw=true "Modelo Lógico")
+
+____________________________________________________________________________________________
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
