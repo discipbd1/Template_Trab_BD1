@@ -180,6 +180,9 @@ FOREIGN key (equipamento_cod) REFERENCES equipamento(cod)
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
+ ![UMA IMAGEM](./images/tabelas-e-principais-consultas/001.PNG)
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
