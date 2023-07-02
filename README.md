@@ -597,62 +597,62 @@ VALUES
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 ____________________________________________________________________________________________
-- 9.1.1 Imagem referente ao comando **__*select * from pessoa*__**
+- 9.1.1 Imagens referentes ao comando **__*select * from pessoa*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-pessoa1.PNG)
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-pessoa2.PNG)
 ____________________________________________________________________________________________
 
-- 9.1.2 Imagem referente ao comando **__*Imagem*__**
+- 9.1.2 Imagem referente ao comando **__*select * from contato_tipo*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-contato-tipo.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.3 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.3 Imagem referente ao comando **__*Imagem*__**
+- 9.1.4 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.4 Imagem referente ao comando **__*Imagem*__**
+- 9.1.5 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.5 Imagem referente ao comando **__*Imagem*__**
+- 9.1.6 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.6 Imagem referente ao comando **__*Imagem*__**
+- 9.1.7 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.7 Imagem referente ao comando **__*Imagem*__**
+- 9.1.8 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.8 Imagem referente ao comando **__*Imagem*__**
-
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
-____________________________________________________________________________________________
-
-
-- 9.1.9 Imagem referente ao comando **__*Imagem*__**
+- 9.1.9 Imagens referentes ao comando **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
