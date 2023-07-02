@@ -700,6 +700,32 @@ ________________________________________________________________________________
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+____________________________________________________________________________________________
+- 9.2.1 Imagens referentes ao comando **__*select * from pessoa where sexo = 'M'*__**
+
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-sexo-m-pessoa1.PNG)
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-sexo-m-pessoa2.PNG)
+
+____________________________________________________________________________________________
+
+____________________________________________________________________________________________
+- 9.2.2 Imagens referentes ao comando **__*select * from pessoa where data_nasc < '1986-09-12'*__**
+
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-data-nasc1.PNG)
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-data-nasc2.PNG)
+____________________________________________________________________________________________
+- 9.2.3 Imagens referentes ao comando **__*select * from emprestimo where valor_solicitacao < 1000*__**
+
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-solicitacao1.PNG)
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-solicitacao2.PNG)
+____________________________________________________________________________________________
+- 9.2.4 Imagens referentes ao comando **__*select * from equipamento where valor_locacao > 300*__**
+
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-locacao1.PNG)
+![UMA IMAGEM](./images/9.2-consultas-das-tabelas-com-filtros-where/where-valor-locacao2.PNG)
+____________________________________________________________________________________________
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
