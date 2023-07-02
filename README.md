@@ -55,7 +55,7 @@ ________________________________________________________________________________
 
 ![Exemplo de Tabela de dados da Empresa MCMY](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/arquivos/TabelaEmpresaMCMY_sample.xlsx?raw=true "Tabela - Empresa MCMY")
 
-![Exemplo de Tabela de dados da Empresa MCMY](arquivos/TabelaEmpresaMCMY_sample.xlsx"Tabela - Empresa MCMY")
+![Exemplo de Tabela de dados da Empresa MCMY](arquivos/TabelaEmpresaMCMY_sample.xlsx)
 
 
     ____________________________________________________________________________________________
