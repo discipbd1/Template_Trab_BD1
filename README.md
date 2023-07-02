@@ -172,7 +172,11 @@ FOREIGN key (equipamento_cod) REFERENCES equipamento(cod)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-        
+
+____________________________________________________________________________________________
+
+- 8.1 Comando **__*INSERT INTO pessoa*__**
+
 INSERT INTO pessoa (cod, nome, sexo, data_nasc, cpf, senha, endereco) 
 VALUES 
 (1, 'Alexandre', 'M', '1961/05/06', '76975667020', 'xjbqA', 'av.Jão Carlos 178'),
@@ -226,7 +230,9 @@ VALUES
 (49, 'Guilherme Almeida', 'M', '1987/04/11', '123789456.56', 'GuilhermeAlmeida', 'rua das Orquídeas 456'),
 (50, 'Carolina Sousa', 'F', '1992/12/14', '789123456.45', 'CarolinaSousa', 'av. das Hortênsias 987')
 
+____________________________________________________________________________________________
 
+- 8.2 Comando **__*INSERT INTO contato_tipo*__**
 
 INSERT INTO contato_tipo(cod, descricao)
 VALUES
@@ -244,7 +250,9 @@ VALUES
 (12, 'TikTok'),
 (13, 'YouTube')
 
+____________________________________________________________________________________________
 
+- 8.3 Comando **__*INSERT INTO contato*__**
 
 INSERT INTO contato(cod, contato, contato_tipo_cod)
 VALUES
@@ -309,7 +317,9 @@ VALUES
 (59, 'tiktok_username4', 12),
 (60, 'youtube_channel4', 13)
 
+____________________________________________________________________________________________
 
+- 8.4 Comando **__*INSERT INTO possui*__**
 
 INSERT INTO possui(pessoa_cod, contato_cod)
 VALUES
@@ -374,8 +384,9 @@ VALUES
 (9, 59),
 (10, 60);
 
+____________________________________________________________________________________________
 
-
+- 8.5 Comando **__*INSERT INTO tipo_equipamento*__**
 
 INSERT INTO tipo_equipamento( cod, nome)
 values
@@ -390,6 +401,9 @@ values
 (9,'MOTOR ESMERIL'),
 (10,'POLITRIZ')
 
+____________________________________________________________________________________________
+
+- 8.6 Comando **__*INSERT INTO equipamento*__**
 
 INSERT INTO equipamento(cod, tipo_equipamento_cod, data_fabricacao, modelo, marca, valor_locacao)
 VALUES
@@ -434,6 +448,9 @@ VALUES
 (39, 9, '2015-10-29', 'Modelo MM', 'Marca MM', 3912.63),
 (40, 10, '2016-07-22', 'Modelo NN', 'Marca NN', 4012.64);
 
+____________________________________________________________________________________________
+
+- 8.7 Comando **__*INSERT INTO funcionario*__**
 
 INSERT INTO funcionario(matricula, pessoa_cod)
 VALUES
@@ -453,9 +470,9 @@ VALUES
 (62490, 5),
 (98245, 28)
 
+____________________________________________________________________________________________
 
-
-
+- 8.8 Comando **__*INSERT INTO emprestimo*__**
 
 INSERT INTO emprestimo (cod, pessoa_cod, funcionario_cod, data_solicitacao, valor_solicitacao, status, data_validacao)
 VALUES
@@ -522,6 +539,9 @@ VALUES
 (61, 48, 28617, '2023-05-01', 17000.00, true, '2023-06-01'),
 (62, 50, 62490, '2023-06-20', 17500.00, true, '2023-07-01')
 
+____________________________________________________________________________________________
+
+- 8.9 Comando **__*INSERT INTO destinado*__**
 
 INSERT INTO destinado(quantidade, emprestimo_cod, equipamento_cod)
 VALUES
@@ -591,6 +611,8 @@ VALUES
 
 ____________________________________________________________________________________________
 
+- 8.10 Comandos **__*UPDATE equipamento*__**
+
 UPDATE equipamento
 SET valor_locacao = 450
 where cod > 30 and  cod <= 40
@@ -598,7 +620,6 @@ where cod > 30 and  cod <= 40
 UPDATE equipamento
 SET valor_locacao = 350
 where cod > 20 and  cod <= 30
-
 
 UPDATE equipamento
 SET valor_locacao = 350
@@ -608,15 +629,27 @@ UPDATE equipamento
 SET valor_locacao = 150
 where cod >= 10 and
 
+____________________________________________________________________________________________
+
+- 8.11 Comandos **__*UPDATE emprestimo*__**
+
+UPDATE emprestimo 
+set status = false
+where valor_solicitacao < 300
+____________________________________________________________________________________________
+
+- 8.12 Comandos **__*ALTER TABLE equipamento*__**
+
 ALTER TABLE equipamento
 ALTER COLUMN valor_locacao  TYPE float;
+____________________________________________________________________________________________
+
+- 8.13 Comandos **__*ALTER TABLE equipamento*__**
 
 ALTER TABLE emprestimo 
 ALTER COLUMN valor_solicitacao TYPE float;
 
-update emprestimo 
-set status = false
-where valor_solicitacao < 300
+
 ____________________________________________________________________________________________
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
