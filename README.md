@@ -30,10 +30,10 @@ Segue abaixo o link do prototipo desenvolvido para a empresa <br>
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários. 
-A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
+    A Empresa MCMY precisa inicialmente dos seguintes relatórios:
+    
+> - O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários. 
 > - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
 > - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula. 
 > - Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
