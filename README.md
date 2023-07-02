@@ -596,42 +596,61 @@ VALUES
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
---------------------------------------------------------------------------------------------
 ____________________________________________________________________________________________
 - 9.1.1 **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
---------------------------------------------------------------------------------------------
 ____________________________________________________________________________________________
 
 - 9.1.2 **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
-- 9.1.1 **__*Imagem*__**
+____________________________________________________________________________________________
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
-- 9.1.1 **__*Imagem*__**
-
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 - 9.1.1 **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
-- 9.1.1 **__*Imagem*__**
+____________________________________________________________________________________________
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
-- 9.1.1 **__*Imagem*__**
-
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 - 9.1.1 **__*Imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.1 **__*Imagem*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.1 **__*Imagem*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.1 **__*Imagem*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.1 **__*Imagem*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+
+____________________________________________________________________________________________
+
 
 - 9.1.1 **__*Imagem*__**
 
