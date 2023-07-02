@@ -42,15 +42,20 @@ ________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
     
-> - 4.1 O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
+> - 4.1
+O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
 ____________________________________________________________________________________________ 
-> - 4.2 Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
+> - 4.2
+Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
 ____________________________________________________________________________________________
-> - 4.3 Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
+> - 4.3
+Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
 ____________________________________________________________________________________________
-> - 4.4 Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
+> - 4.4
+Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
 ____________________________________________________________________________________________
-> - 4.5 Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
+> - 4.5
+Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
 
  ____________________________________________________________________________________________
  
