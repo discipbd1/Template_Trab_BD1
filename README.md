@@ -52,8 +52,12 @@ ________________________________________________________________________________
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     ____________________________________________________________________________________________
+
 ![Exemplo de Tabela de dados da Empresa MCMY](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/arquivos/TabelaEmpresaMCMY_sample.xlsx?raw=true "Tabela - Empresa MCMY")
-    
+
+![Exemplo de Tabela de dados da Empresa MCMY](arquivos/TabelaEmpresaMCMY_sample.xlsx"Tabela - Empresa MCMY")
+
+
     ____________________________________________________________________________________________
 ### 5.MODELO CONCEITUAL<br>
     A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
