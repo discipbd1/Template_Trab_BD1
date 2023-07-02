@@ -7,7 +7,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-____________________________________________________________________________________________
+
 Cleiton Gomes dos Santos: cleitongomes@ucl.br<br>
 Marianna Almeida Santos: marianna.almeidasa@gmail.com<br>
 Murilo Andrade Carvalho: muriloandradec@gmail.com<br>
