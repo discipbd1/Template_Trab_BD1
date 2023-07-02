@@ -50,8 +50,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 > - 4.4 Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
 ____________________________________________________________________________________________
-> - 4.5 Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço;____________________________________________________________________________________________
- 
+> - 4.5 Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
 
  ____________________________________________________________________________________________
  
