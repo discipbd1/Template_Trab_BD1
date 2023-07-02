@@ -182,8 +182,7 @@ FOREIGN key (equipamento_cod) REFERENCES equipamento(cod)
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-- 9.1.1 ** *descricao imagem* **
-- 9.1.1 *descricao imagem*
+
 - 9.1.1 **__*descricao imagem*__**
 
 ![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
