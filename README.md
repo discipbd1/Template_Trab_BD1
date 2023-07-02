@@ -85,6 +85,8 @@ ________________________________________________________________________________
     [objeto]: [descrição do objeto]
     
     ____________________________________________________________________________________________
+
+    
     - PESSOA: Tabela que armazena as informações relativas ao cliente ou funcionário;
     - nome: campo que armazena o nome da pessoa; 
     - sexo:  campo que armazena o sexo da pessoa;
