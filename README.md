@@ -876,13 +876,13 @@ ________________________________________________________________________________
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 ____________________________________________________________________________________________
 
-- 9.3.1 Imagens referentes aos Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+- 9.3.1 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
 
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/01operador-and01.PNG)
 
 ____________________________________________________________________________________________
 
-- 9.3.1 Imagens referentes aos Comando **__*select * from equipamento where valor_locacao = 350 or valor_locacao < 200*__**
+- 9.3.2 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao = 350 or valor_locacao < 200*__**
 
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/02operador-or1.PNG)
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/02operador-or2.PNG)
@@ -890,7 +890,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where valor_solicitacao = 1000 or valor_solicitacao > 2000*__**
+- 9.3.3 Imagens referentes aos Comando **__*select * from emprestimo where valor_solicitacao = 1000 or valor_solicitacao > 2000*__**
 
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/03operador-or1.PNG)
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/03operador-or2.PNG)
@@ -898,16 +898,71 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where (valor_solicitacao < 400 and valor_solicitacao >= 350)  or status is false*__**
+- 9.3.4 Imagens referente ao Comando **__*select * from emprestimo where (valor_solicitacao < 400 and valor_solicitacao >= 350)  or status is false*__**
 
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/04operador-or1.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.3.1 Imagens referentes aos Comando **__*select * from emprestimo where valor_solicitacao < 400   and status is true*__**
+- 9.3.5 Imagens referente ao Comando **__*select * from emprestimo where valor_solicitacao < 400   and status is true*__**
 
 ![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/05operador-and01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.3.6 Imagens referente ao Comando **__*select (valor_solicitacao * 0.9) as valor_com_desconto, * from emprestimo*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-desconto01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-desconto02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-desconto03.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-desconto04.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.7 Imagens referente ao Comando **__*select (valor_solicitacao * 1.1 + 50) as valo_com_multa, * from emprestimo*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-multa01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-multa02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-multa03.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-multa04.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.8 Imagens referente ao Comando **__*select valor_locacao * 1.20 as valor_com_reajuste, * from equipamento*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-reajuste01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-reajuste02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-com-reajuste03.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.9 Imagens referente ao Comando **__*select valor_locacao * 1.20 as valor_com_reajuste,  valor_locacao as valor_sem_reajuste from equipamento*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-sem-reajuste01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-sem-reajuste02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/valor-sem-reajuste03.PNG)
+____________________________________________________________________________________________
+
+
+- 9.3.10 Imagens referente ao Comando **__*select (valor_solicitacao * 0.9) as valor_com_desconto, valor_solicitacao as valor_original from emprestimo*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-valor-original01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-valor-original02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-valor-original03.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-valor-original04.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.3.11 Imagens referente ao Comando **__*select cpf as documento from pessoa*__**
+
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-documento-cpf01.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-documento-cpf02.PNG)
+![UMA IMAGEM](./images/9.3-consultas-que-usam-operadores-logicos-aritmeticos-e-tabelas-ou-campos-renomeados/select-documento-cpf03.PNG)
 
 ____________________________________________________________________________________________
 
