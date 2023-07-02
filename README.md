@@ -611,7 +611,7 @@ VALUES
 
 ____________________________________________________________________________________________
 
-- 8.10 Comandos **__*UPDATE equipamento*__**
+- 8.10 Comandos **__*UPDATE*__**
 
 UPDATE equipamento
 SET valor_locacao = 450
@@ -629,22 +629,16 @@ UPDATE equipamento
 SET valor_locacao = 150
 where cod >= 10 and
 
-____________________________________________________________________________________________
-
-- 8.11 Comandos **__*UPDATE emprestimo*__**
-
 UPDATE emprestimo 
 set status = false
 where valor_solicitacao < 300
 ____________________________________________________________________________________________
 
-- 8.12 Comandos **__*ALTER TABLE equipamento*__**
+- 8.12 Comandos **__*ALTER TABLE*__**
 
 ALTER TABLE equipamento
 ALTER COLUMN valor_locacao  TYPE float;
-____________________________________________________________________________________________
 
-- 8.13 Comandos **__*ALTER TABLE equipamento*__**
 
 ALTER TABLE emprestimo 
 ALTER COLUMN valor_solicitacao TYPE float;
