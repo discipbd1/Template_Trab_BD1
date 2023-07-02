@@ -180,7 +180,7 @@ FOREIGN key (equipamento_cod) REFERENCES equipamento(cod)
 
 ># Marco de Entrega 01: Do item 1 até o item 9.1<br>
 
- ![9.1- name](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+ [9.1- name](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
