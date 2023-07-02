@@ -38,12 +38,17 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
+
     
-> - O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários. 
-> - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
-> - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula. 
-> - Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
-> - Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço.
+> - 4.1 O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
+____________________________________________________________________________________________ 
+> - 4.2 Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
+____________________________________________________________________________________________
+> - 4.3 Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
+____________________________________________________________________________________________
+> - 4.4 Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
+____________________________________________________________________________________________
+> - 4.5 Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço;____________________________________________________________________________________________
  
 
  ____________________________________________________________________________________________
@@ -68,6 +73,8 @@ ________________________________________________________________________________
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
         ____________________________________________________________________________________________
+
+- 5.1 Modelo Conceitual
 
 ![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_conceitual_final.png?raw=true "Modelo Conceitual")
     
@@ -171,6 +178,10 @@ ________________________________________________________________________________
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+
+____________________________________________________________________________________________
+- 6.1 Modelo Lógico
+
 ![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_logico_final2.png?raw=true "Modelo Lógico")
 
 ____________________________________________________________________________________________
