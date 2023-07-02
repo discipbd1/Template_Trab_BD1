@@ -619,10 +619,12 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-- 9.1.4 Imagens referentes ao comando **__*Imagem*__**
+- 9.1.4 Imagens referentes ao comando **__*select * from possui*__**
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-possui1.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-possui2.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-possui3.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-possui4.PNG)
 ____________________________________________________________________________________________
 
 
