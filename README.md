@@ -588,6 +588,36 @@ VALUES
 (1, 61, 21),
 (2, 62, 22);
 
+
+____________________________________________________________________________________________
+
+UPDATE equipamento
+SET valor_locacao = 450
+where cod > 30 and  cod <= 40
+
+UPDATE equipamento
+SET valor_locacao = 350
+where cod > 20 and  cod <= 30
+
+
+UPDATE equipamento
+SET valor_locacao = 350
+where cod > 10 and  cod <= 20
+
+UPDATE equipamento
+SET valor_locacao = 150
+where cod >= 10 and
+
+ALTER TABLE equipamento
+ALTER COLUMN valor_locacao  TYPE float;
+
+ALTER TABLE emprestimo 
+ALTER COLUMN valor_solicitacao TYPE float;
+
+update emprestimo 
+set status = false
+where valor_solicitacao < 300
+____________________________________________________________________________________________
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
@@ -628,38 +658,44 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 
-- 9.1.5 Imagens referentes ao comando **__*Imagem*__**
+- 9.1.5 Imagens referentes ao comando **__*select * from tipo_equipamento*__**
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
-____________________________________________________________________________________________
-
-
-- 9.1.6 Imagens referentes ao comando **__*Imagem*__**
-
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-tipo_equipamento.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.7 Imagens referentes ao comando **__*Imagem*__**
+- 9.1.6 Imagens referentes ao comando **__*select * from equipamento*__**
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
-
-____________________________________________________________________________________________
-
-
-- 9.1.8 Imagens referentes ao comando **__*Imagem*__**
-
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-equipamento1.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-equipamento2.PNG)
 
 ____________________________________________________________________________________________
 
 
-- 9.1.9 Imagens referentes ao comando **__*Imagem*__**
+- 9.1.7 Imagens referentes ao comando **__*select * from funcionario*__**
 
-![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/9.1-teste.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-funcionario.PNG)
 
+____________________________________________________________________________________________
+
+
+- 9.1.8 Imagens referentes ao comando **__*select * from emprestimo*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-emprestimo1.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-emprestimo2.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-emprestimo3.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-emprestimo4.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.1.9 Imagens referentes ao comando **__*select * from destinado*__**
+
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-destinado1.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-destinado2.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-destinado3.PNG)
+![UMA IMAGEM](./images/9.1-tabelas-e-principais-consultas/select-destinado4.PNG)
 ____________________________________________________________________________________________
 
 
