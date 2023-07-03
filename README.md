@@ -1120,8 +1120,15 @@ ________________________________________________________________________________
 
 - 9.6.3 Imagens referentes ao Comando **__*select * from pessoa a join emprestimo b on a.cod = b.pessoa_cod join destinado c on b.cod = c.emprestimo_cod join equipamento d on d.cod = c.equipamento_cod join tipo_equipamento e on e.cod = d.tipo_equipamento_cod join possui f on a.cod = f.pessoa_cod join contato g on g.cod = f.contato_cod join contato_tipo h on h.cod = g.contato_tipo_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod order by b.data_validacao*__**
 
+-9.6.3.1 Comando acima em escala global
+
 ![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-01.PNG)
 ![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-01.PNG)
+
+-9.6.3.2 Comando acima em escala reduzida e Imagens cortadas, para fins de melhor visualização
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-03.PNG)
+
 ____________________________________________________________________________________________
 
 - 9.6.4 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
