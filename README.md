@@ -181,7 +181,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 - 6.1 Modelo Lógico
 
-![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_logico_final2.png?raw=true "Modelo Lógico")
+![Alt text](https://github.com/TrabalhoBancodeDados/Template_Trab_BD1/blob/master/images/modelo_logico_final.png?raw=true "Modelo Lógico")
 
 ____________________________________________________________________________________________
 
