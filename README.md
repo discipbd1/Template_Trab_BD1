@@ -1173,7 +1173,7 @@ ________________________________________________________________________________
 - 9.7.3 Imagens referentes ao Comando **__*select a.nome, count(a.nome) total_por_pessoa from pessoa a join emprestimo b on a.cod = b.pessoa_cod group by a.nome*__**
 
 ![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.3-01.PNG)
-![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.3-02.PNG.PNG)
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.3-02.PNG)
 ____________________________________________________________________________________________
 
 - 9.7.4 Imagens referentes ao Comando **__*select max(valor_solicitacao) maximo_por_pessoa, a.nome  from pessoa a join emprestimo b on a.cod = b.pessoa_cod group by a.nome*__**
