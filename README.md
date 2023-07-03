@@ -1009,7 +1009,7 @@ ________________________________________________________________________________
 ![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.11-03.PNG)
 ____________________________________________________________________________________________
 
-- 9.4.12 Imagens referentes ao Comando **__**__**
+- 9.4.12 Imagens referentes ao Comando **__*select * from pessoa where endereco like '%Karla%'*__**
 
 ![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.12-01.PNG)
 ____________________________________________________________________________________________
