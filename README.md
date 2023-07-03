@@ -1368,7 +1368,8 @@ ________________________________________________________________________________
 
 - 9.10.4 Imagens referentes ao Comando **__**__**
 
-![UMA IMAGEM](./images/9.10-subconsultas/)
+
+[LINK COLAB.ipynb](https://colab.research.google.com/drive/1_nEsgjLrPr9KsTgNmMN9f_Wicp3CByLN#scrollTo=O6NVpavExLkv&uniqifier=5)
 
 ____________________________________________________________________________________________    
 
