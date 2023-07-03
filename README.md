@@ -971,6 +971,38 @@ ________________________________________________________________________________
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
+____________________________________________________________________________________________
+
+- 9.4.1 Imagens referentes ao Comando **__*select * from pessoa where senha like '%x%'*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.4.2 Imagens referentes ao Comando **__*select * from pessoa where senha like 'x%'*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+
+____________________________________________________________________________________________
+
+- 9.4.3 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+
+____________________________________________________________________________________________
+
+- 9.4.4 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+
+____________________________________________________________________________________________
+
+- 9.4.5 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+
+____________________________________________________________________________________________
+
 #### 9.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
     a) Criar minimo 3 de exclusão
     b) Criar minimo 3 de atualização
