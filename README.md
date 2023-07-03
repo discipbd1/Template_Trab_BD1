@@ -1316,9 +1316,9 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.10.4 Imagens referentes ao Comando **__**__**
+- 9.10.4 Imagens referentes ao Comando **__*SELECT ct.descricao, sub.total_contatos FROM contato_tipo ct INNER JOIN (SELECT c.contato_tipo_cod, COUNT() AS total_contatos FROM contato c GROUP BY c.contato_tipo_cod) AS sub ON ct.cod = sub.contato_tipo_cod*__**
 
-![UMA IMAGEM](./images/9.10-subconsultas/)
+![UMA IMAGEM](./images/9.10-subconsultas/9.10.4-01.PNG)
 
 ____________________________________________________________________________________________
 
