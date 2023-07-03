@@ -191,7 +191,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 7.1 Comando **__*CREATE TABLE pessoa*__**
+- Comando **__*CREATE TABLE pessoa*__**
 
 CREATE TABLE pessoa( cod int, nome varchar(100), sexo varchar(100),data_nasc date, cpf varchar(12),  senha varchar(100), endereco varchar(300),
 PRIMARY key (cod)
@@ -199,7 +199,7 @@ PRIMARY key (cod)
 
 ____________________________________________________________________________________________
 
-- 7.2 Comando **__*CREATE TABLE contato_tipo*__**
+- Comando **__*CREATE TABLE contato_tipo*__**
 
 CREATE TABLE contato_tipo( cod int, descricao varchar(300),
 PRIMARY key (cod)
@@ -207,7 +207,7 @@ PRIMARY key (cod)
 
 ____________________________________________________________________________________________
 
-- 7.3 Comando **__*CREATE TABLE contato*__**
+-  Comando **__*CREATE TABLE contato*__**
 
 CREATE TABLE contato( cod int, contato varchar(100), contato_tipo_cod int,
 PRIMARY key (cod),
@@ -217,7 +217,7 @@ FOREIGN key (contato_tipo_cod) REFERENCES contato_tipo(cod)
 
 ____________________________________________________________________________________________
 
-- 7.4 Comando **__*CREATE TABLE possui*__**
+-  Comando **__*CREATE TABLE possui*__**
 
 CREATE TABLE possui( pessoa_cod int, contato_cod int,
 FOREIGN key (contato_cod) REFERENCES contato(cod),
@@ -226,7 +226,7 @@ FOREIGN key (pessoa_cod) REFERENCES pessoa(cod)
 
 ____________________________________________________________________________________________
 
-- 7.5 Comando **__*CREATE TABLE tipo_equipamento*__**
+-  Comando **__*CREATE TABLE tipo_equipamento*__**
 
 CREATE TABLE tipo_equipamento( cod int, nome varchar(100),
 PRIMARY key (cod)
@@ -234,7 +234,7 @@ PRIMARY key (cod)
 
 ____________________________________________________________________________________________
 
-- 7.6 Comando **__*CREATE TABLE equipamento*__**
+-  Comando **__*CREATE TABLE equipamento*__**
 
 CREATE TABLE equipamento( cod int, tipo_equipamento_cod int, data_fabricacao date, modelo varchar(100), marca varchar(100), valor_locacao decimal,
 PRIMARY key (cod),
@@ -243,7 +243,7 @@ FOREIGN key (tipo_equipamento_cod) REFERENCES tipo_equipamento(cod)
 
 ____________________________________________________________________________________________
 
-- 7.7 Comando **__*CREATE TABLE funcionario*__**
+- Comando **__*CREATE TABLE funcionario*__**
 
 CREATE TABLE funcionario( matricula int, pessoa_cod int,
 PRIMARY key (matricula ),
@@ -253,7 +253,7 @@ FOREIGN key (pessoa_cod) REFERENCES pessoa(cod)
 
 ____________________________________________________________________________________________
 
-- 7.8 Comando **__*CREATE TABLE emprestimo*__**
+- Comando **__*CREATE TABLE emprestimo*__**
 
 CREATE TABLE emprestimo( cod int, pessoa_cod int, funcionario_cod int,  data_solicitacao date, valor_solicitacao decimal, status boolean, data_validacao date, 
 PRIMARY key (cod),
@@ -263,7 +263,7 @@ FOREIGN key (funcionario_cod) REFERENCES funcionario(matricula)
 
 ____________________________________________________________________________________________
 
-- 7.9 Comando **__*CREATE TABLE destino*__**
+- Comando **__*CREATE TABLE destino*__**
 
 CREATE TABLE destinado( quantidade int, emprestimo_cod int, equipamento_cod int,
 FOREIGN key (emprestimo_cod) REFERENCES emprestimo(cod),
