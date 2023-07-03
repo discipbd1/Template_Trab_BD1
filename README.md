@@ -1332,7 +1332,25 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.10.1 Imagens referentes ao Comando **__**__**
+- 9.10.1 Imagens referentes ao Comando **__*SELECT nome, cpf FROM pessoa WHERE cod IN (SELECT pessoa_cod FROM possui INNER JOIN contato ON possui.contato_cod = contato.cod INNER JOIN contato_tipo ON contato.contato_tipo_cod = contato_tipo.cod WHERE descricao = 'telefone')*__**
+
+![UMA IMAGEM](./images/9.10-subconsultas/9.10.1-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.10.2 Imagens referentes ao Comando **__*SELECT nome, cpf FROM pessoa WHERE cod IN (SELECT pessoa_cod FROM possui INNER JOIN contato ON possui.contato_cod = contato.cod WHERE contato like'%@%')*__**
+
+![UMA IMAGEM](./images/9.10-subconsultas/9.10.2-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.10.3 Imagens referentes ao Comando **__**__**
+
+![UMA IMAGEM](./images/9.10-subconsultas/)
+
+____________________________________________________________________________________________
+
+- 9.10.4 Imagens referentes ao Comando **__**__**
 
 ![UMA IMAGEM](./images/9.10-subconsultas/)
 
