@@ -265,7 +265,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-####  Tabela PESSOA
+####  Tabela PESSOA <br>
          
      INSERT INTO pessoa (cod, nome, sexo, data_nasc, cpf, senha, endereco) 
         VALUES 
@@ -320,7 +320,7 @@ ________________________________________________________________________________
         (49, 'Guilherme Almeida', 'M', '1987/04/11', '123789456.56', 'GuilhermeAlmeida', 'rua das Orquídeas 456'),
         (50, 'Carolina Sousa', 'F', '1992/12/14', '789123456.45', 'CarolinaSousa', 'av. das Hortênsias 987')
 
-#### Tabela CONTATO_TIPO
+#### Tabela CONTATO_TIPO <br>
 
       INSERT INTO contato_tipo(cod, descricao)
       VALUES
@@ -338,7 +338,7 @@ ________________________________________________________________________________
       (12, 'TikTok'),
       (13, 'YouTube')
 
-#### Tabela CONTATO 
+#### Tabela CONTATO <br>
 
         INSERT INTO contato(cod, contato, contato_tipo_cod)
         VALUES
@@ -403,7 +403,7 @@ ________________________________________________________________________________
         (59, 'tiktok_username4', 12),
         (60, 'youtube_channel4', 13)
 
-#### Tabela POSSUI
+#### Tabela POSSUI <br>
 
        INSERT INTO possui(pessoa_cod, contato_cod)
        VALUES
@@ -469,7 +469,7 @@ ________________________________________________________________________________
        (10, 60);
 
      
-#### Tabela TIPO_EQUIPAMENTO
+#### Tabela TIPO_EQUIPAMENTO <br>
 
       INSERT INTO tipo_equipamento( cod, nome)
       values
@@ -485,7 +485,7 @@ ________________________________________________________________________________
       (10,'POLITRIZ')
 
 
-#### Tabela EQUIPAMENTO
+#### Tabela EQUIPAMENTO <br>
 
      INSERT INTO equipamento(cod, tipo_equipamento_cod, data_fabricacao, modelo, marca, valor_locacao)
      VALUES
@@ -530,27 +530,27 @@ ________________________________________________________________________________
      (39, 9, '2015-10-29', 'Modelo MM', 'Marca MM', 3912.63),
      (40, 10, '2016-07-22', 'Modelo NN', 'Marca NN', 4012.64);
 
-#### Tabela FUNCIONARIO
+#### Tabela FUNCIONARIO<br>
 
-  INSERT INTO funcionario(matricula, pessoa_cod)
-  VALUES
-  (37428, 24),
-  (95214, 46),
-  (61073, 6),
-  (82105, 35),
-  (49762, 12),
-  (10983, 44),
-  (28617, 20),
-  (41596, 37),
-  (73942, 32),
-  (56910, 17),
-  (82430, 26),
-  (12034, 11),
-  (76854, 45),
-  (62490, 5),
-  (98245, 28)
+      INSERT INTO funcionario(matricula, pessoa_cod)
+      VALUES
+      (37428, 24),
+      (95214, 46),
+      (61073, 6),
+      (82105, 35),
+      (49762, 12),
+      (10983, 44),
+      (28617, 20),
+      (41596, 37),
+      (73942, 32),
+      (56910, 17),
+      (82430, 26),
+      (12034, 11),
+      (76854, 45),
+      (62490, 5),
+      (98245, 28)
 
-#### Tabela EMPRESTIMO
+#### Tabela EMPRESTIMO <br>
 
     INSERT INTO emprestimo (cod, pessoa_cod, funcionario_cod, data_solicitacao, valor_solicitacao, status, data_validacao)
     VALUES
@@ -617,7 +617,7 @@ ________________________________________________________________________________
     (61, 48, 28617, '2023-05-01', 17000.00, true, '2023-06-01'),
     (62, 50, 62490, '2023-06-20', 17500.00, true, '2023-07-01')
 
-#### Tabela DESTINO
+#### Tabela DESTINO <br>
 
     INSERT INTO destinado(quantidade, emprestimo_cod, equipamento_cod)
     VALUES
@@ -685,7 +685,7 @@ ________________________________________________________________________________
     (2, 62, 22);
 
 
-#### Tabela EQUIPAMENTO (ATUALIZANDO
+#### Tabela EQUIPAMENTO (ATUALIZANDO <br>
 
        UPDATE equipamento
        SET valor_locacao = 450
@@ -708,7 +708,7 @@ ________________________________________________________________________________
        where valor_solicitacao < 300
 
 
-#### Tabela ALTER TABLE
+#### Tabela ALTER TABLE <br>
 
      ALTER TABLE equipamento
      ALTER COLUMN valor_locacao  TYPE float;
