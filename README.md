@@ -1160,7 +1160,7 @@ ________________________________________________________________________________
 
 - 9.7.1 Imagens referentes ao Comando **__*select j.nome as funcionario_responsavel, count(j.nome) as total_atendimentos from pessoa a join emprestimo b on a.cod = b.pessoa_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod group by j.nome*__**
 
-![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.1-01.PNGPNG)
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.1-01.PNG)
 
 ____________________________________________________________________________________________
 
