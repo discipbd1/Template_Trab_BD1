@@ -21,9 +21,7 @@ ________________________________________________________________________________
 > A empresa MCMY visa colaborar com desenvolvimento de projetos para melhora da locação de equipamentos e de ferramentas em geral. Sabendo-se dos desafios para gerenciar um sistema de aluguel dentro de uma empresa e visando unir as informações referentes a clientes, funcionários, equipamentos, contratos, renovação e manutenção em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "MCMY" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de empresas (filiais). Para realizar suas operações adequadamente e a empresa necessita que o sistema armazene informações relativas aos dados (contato, endereços, dados dos equipamentos), empregados. Além de também armazenar dados sobre aprovação de aluguel.
  ____________________________________________________________________________________________
 ### 3.MINI-MUNDO<br>
-    Descrição do mini-mundo.
- ____________________________________________________________________________________________    
-- 3.1 Mini-Mundo
+   
 > Em um determinado sistema para locação de equipamentos em geral que visa facilitar a gestão de locação. Dessa maneira, o sistema precisa controlar os equipamentos através da identificação, tipo ( equipamentos de uso geral), data de fabricação, modelo, marca e valor da locação. O sistema também deve permitir o controle de clientes através do nome, data nescimento, sexo, cpf, endereço, senha e contato(telefone, e-mail, WhatsApp ou Telegram) . Além disso, precisa-se controlar os empréstimos dos equipamentos através da identificação,data da solitação, valor da solicitação, data da validação e status(aprovado ou reprovado). O funcionário possui uma matrícula e gerencia os empréstimos. No ato de locação de um determinado equipamento emprestado, o cliente deve assinar o termo de responsabilidade, onde ele se responsabiliza por quaisquer danos ao equipamento. O sistema deve permite que um cliente pegue mais do que um equipamento.
 ____________________________________________________________________________________________
 
@@ -42,20 +40,15 @@ ________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
     
-> - 4.1
-O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
+> - O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
 ____________________________________________________________________________________________ 
-> - 4.2
-Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
+> - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
 ____________________________________________________________________________________________
-> - 4.3
-Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
+> - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
 ____________________________________________________________________________________________
-> - 4.4
-Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
+> - Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
 ____________________________________________________________________________________________
-> - 4.5
-Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
+> - Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
 
  ____________________________________________________________________________________________
  
