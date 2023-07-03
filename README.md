@@ -1310,9 +1310,9 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.10.3 Imagens referentes ao Comando **__**__**
+- 9.10.3 Imagens referentes ao Comando **__*SELECT distinct p.sexo, sub.total_pessoas FROM pessoa p INNER JOIN ( SELECT sexo, COUNT(sexo) AS total_pessoas FROM pessoa GROUP BY sexo ) AS sub ON p.sexo = b.sexo;*__**
 
-![UMA IMAGEM](./images/9.10-subconsultas/)
+![UMA IMAGEM](./images/9.10-subconsultas/9.10.3-01.PNG)
 
 ____________________________________________________________________________________________
 
