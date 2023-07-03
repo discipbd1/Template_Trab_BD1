@@ -1142,7 +1142,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.6.6 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+- 9.6.6 Imagens referentes ao Comando **__*select a.nome as cliente, j.nome as funcionario_responsavel from pessoa a join emprestimo b on a.cod = b.pessoa_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod order by a.nome*__**
 
 ![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-01.PNG)
 ![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-02.PNG)
@@ -1155,6 +1155,46 @@ ________________________________________________________________________________
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
     a) Criar minimo 2 envolvendo algum tipo de junção
+
+____________________________________________________________________________________________
+
+- 9.7.1 Imagens referentes ao Comando **__*select j.nome as funcionario_responsavel, count(j.nome) as total_atendimentos from pessoa a join emprestimo b on a.cod = b.pessoa_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod group by j.nome*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.1-01.PNGPNG)
+
+____________________________________________________________________________________________
+
+- 9.7.2 Imagens referentes ao Comando **__*select d.descricao, count(d.descricao) as total from contato c join contato_tipo d on d.cod = c.contato_tipo_cod group by d.descricao*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.2-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.7.3 Imagens referentes ao Comando **__*select a.nome, count(a.nome) total_por_pessoa from pessoa a join emprestimo b on a.cod = b.pessoa_cod group by a.nome*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.3-01.PNG)
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.3-02.PNG.PNG)
+____________________________________________________________________________________________
+
+- 9.7.4 Imagens referentes ao Comando **__*select max(valor_solicitacao) maximo_por_pessoa, a.nome  from pessoa a join emprestimo b on a.cod = b.pessoa_cod group by a.nome*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.4-01.PNG)
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.4-02.PNG)
+
+
+____________________________________________________________________________________________
+
+- 9.7.5 Imagens referentes ao Comando **__*select min(valor_locacao) mais_barato, b.nome from equipamento a join tipo_equipamento b on b.cod = a.tipo_equipamento_cod group by b.nome*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.5-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.7.6 Imagens referentes ao Comando **__*select d.descricao, count(d.descricao) as total from contato c join contato_tipo d on d.cod = c.contato_tipo_cod group by d.descricao having count(d.descricao) > 5*__**
+
+![UMA IMAGEM](./images/9.7-consultas-com-group-by-e-funcoes-de-agrupamento/9.7.6-01.PNG)
+
+____________________________________________________________________________________________
 
 #### 9.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)<br>
     a) Criar minimo 1 de cada tipo
