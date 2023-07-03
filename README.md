@@ -1128,21 +1128,26 @@ ________________________________________________________________________________
 ![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-06.PNG)
 ____________________________________________________________________________________________
 
-- 9.6.4 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+- 9.6.4 Imagens referentes ao Comando **__*select * from funcionario i join pessoa j on i.pessoa_cod = j.cod Order by nome*__**
 
-![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.4-01.PNG)
 
 ____________________________________________________________________________________________
 
-- 9.6.5 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+- 9.6.5 Imagens referentes ao Comando **__*select * from contato c join contato_tipo d on d.cod = c.contato_tipo_cod Order by descricao*__**
 
-![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.5-01.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.5-02.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.5-03.PNG)
 
 ____________________________________________________________________________________________
 
 - 9.6.6 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
 
-![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-01.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-02.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-03.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.6-04.PNG)
 
 ____________________________________________________________________________________________
 
