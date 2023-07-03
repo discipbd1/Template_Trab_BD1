@@ -1238,11 +1238,93 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.9.1 Imagens referentes ao Comando **__**__**
+- 9.9.1.1 Imagens referentes ao Comando **__*create view atendimentos as select a.nome as cliente, j.nome as funcionario_responsavel from pessoa a join emprestimo b on a.cod = b.pessoa_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod where b.valor_solicitacao > 2000*__**
 
-![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.1.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+- 9.9.1.2 Imagens referentes ao Comando **__*select * from atendimentos*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.1.2-01.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.1.2-02.PNG)
 
 ____________________________________________________________________________________________
+
+- 9.9.2.1 Imagens referentes ao Comando **__*create view emprestimos as select a.nome as cliente, e.nome from pessoa a join emprestimo b on a.cod = b.pessoa_cod join destinado c on b.cod = c.emprestimo_cod join equipamento d on d.cod = c.equipamento_cod join tipo_equipamento e on e.cod = d.tipo_equipamento_cod order by a.cod*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.2.1-01.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+- 9.9.2.2 Imagens referentes ao Comando **__*select * from emprestimos*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.2.2-01.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.2.2-02.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.2.2-03.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.2.2-04.PNG)
+
+____________________________________________________________________________________________
+
+- 9.9.3.1 Imagens referentes ao Comando **__*create view contato_cliente as select a.nome, c.contato, d.descricao from pessoa a join possui b on a.cod = b.pessoa_cod join contato c on c.cod = b.contato_cod join contato_tipo d on d.cod = c.contato_tipo_cod*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.3.1.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+
+- 9.9.3.2 Imagens referentes ao Comando **__*select * from contato_cliente*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.3.2-01.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.3.2-02.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.3.2-03.PNG)
+
+____________________________________________________________________________________________
+
+- 9.9.4.1 Imagens referentes ao Comando **__*create view contato_mais_usado as select d.descricao, count(d.descricao) as total from contato c join contato_tipo d on d.cod = c.contato_tipo_cod group by d.descricao*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.4.1.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+
+- 9.9.4.2 Imagens referentes ao Comando **__*select * from contato_mais_usado*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.4.2-01.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.9.5.1 Imagens referentes ao Comando **__*create view quadro_funcionarios as select j.nome from funcionario i join pessoa j on i.pessoa_cod = j.cod Order by nome*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.5.1.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+
+- 9.9.5.2 Imagens referentes ao Comando **__*select * from quadro_funcionarios*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.5.2-01.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.9.6.1 Imagens referentes ao Comando **__*create view total_emprestimo_pessoa as select a.nome, count(a.nome) total_por_pessoa from pessoa a join emprestimo b on a.cod = b.pessoa_cod group by a.nome*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.6.1.PNG)
+
+O Comando acima nos dará de retorno o select abaixo;
+
+
+- 9.9.6.2 Imagens referentes ao Comando **__*select * from total_emprestimo_pessoa*__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.6.2-01.PNG)
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/9.9.6.2-02.PNG)
+
+____________________________________________________________________________________________
+
+
+
 
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
