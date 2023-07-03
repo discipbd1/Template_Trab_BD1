@@ -1095,6 +1095,55 @@ ________________________________________________________________________________
     a) Uma junção que envolva todas as tabelas possuindo no mínimo 2 registros no resultado
     b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 
+____________________________________________________________________________________________
+
+- 9.6.1 Imagens referentes ao Comando **__*select * from pessoa a join possui b on a.cod = b.pessoa_cod join contato c on c.cod = b.contato_cod join contato_tipo d on d.cod = c.contato_tipo_cod order by a.data_nasc*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-00.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-01.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-02.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-03.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-04.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-05.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.1-06.PNG)
+
+____________________________________________________________________________________________
+
+- 9.6.2 Imagens referentes ao Comando **__*select a.nome as cliente, e.nome from pessoa a join emprestimo b on a.cod = b.pessoa_cod join destinado c on b.cod = c.emprestimo_cod join equipamento d on d.cod = c.equipamento_cod join tipo_equipamento e on e.cod = d.tipo_equipamento_cod order by a.cod*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.2-01.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.2-02.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.2-03.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.2-04.PNG)
+
+____________________________________________________________________________________________
+
+- 9.6.3 Imagens referentes ao Comando **__*select * from pessoa a join emprestimo b on a.cod = b.pessoa_cod join destinado c on b.cod = c.emprestimo_cod join equipamento d on d.cod = c.equipamento_cod join tipo_equipamento e on e.cod = d.tipo_equipamento_cod join possui f on a.cod = f.pessoa_cod join contato g on g.cod = f.contato_cod join contato_tipo h on h.cod = g.contato_tipo_cod join funcionario i on i.matricula = b.funcionario_cod join pessoa j on i.pessoa_cod = j.cod order by b.data_validacao*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-01.PNG)
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/9.6.3-01.PNG)
+____________________________________________________________________________________________
+
+- 9.6.4 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+
+____________________________________________________________________________________________
+
+- 9.6.5 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+
+____________________________________________________________________________________________
+
+- 9.6.6 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+
+![UMA IMAGEM](./images/9.6-consultas-com-inner-join-e-order-by/)
+
+____________________________________________________________________________________________
+
+
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
     a) Criar minimo 2 envolvendo algum tipo de junção
 
