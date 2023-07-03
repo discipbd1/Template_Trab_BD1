@@ -985,7 +985,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.4.3 Imagens referentes ao Comando **__*select * from pessoa where senha like '%x'**
+- 9.4.3 Imagens referentes ao Comando **__*select * from pessoa where senha like '%x'*__**
 
 ![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-03.PNG)
 
@@ -1366,7 +1366,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 10.1 Segue abaixo o LINK do **__*google colab*__**
+- 10.1 Segue abaixo o LINK do **__*google colab*__** Referente ao Projeto
 
 
 [LINK COLAB.ipynb](https://colab.research.google.com/drive/1_nEsgjLrPr9KsTgNmMN9f_Wicp3CByLN#scrollTo=O6NVpavExLkv&uniqifier=5)
