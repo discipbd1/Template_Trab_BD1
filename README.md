@@ -1009,6 +1009,11 @@ ________________________________________________________________________________
 ![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.11-03.PNG)
 ____________________________________________________________________________________________
 
+- 9.4.12 Imagens referentes ao Comando **__**__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.12-01.PNG)
+____________________________________________________________________________________________
+
 #### 9.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
     a) Criar minimo 3 de exclusão
     b) Criar minimo 3 de atualização
