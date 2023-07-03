@@ -1054,9 +1054,40 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________
 
-- 9.5.1 Imagens referentes ao Comando **__*select * from contato where contato like '%.com'*__**
+- 9.5.1 Imagens referentes ao Comando **__*delete from possui where contato_cod = 60*__**
 
-![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/)
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.1-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.5.2 Imagens referentes ao Comando **__*delete from contato where cod = 60*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.2-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.5.3 Imagens referentes ao Comando **__*delete from destinado where emprestimo_cod = 62*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.3-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.5.4 Imagens referentes ao Comando **__*update pessoa set sexo = 'F' where cod = 1*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.4-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.5.5 Imagens referentes ao Comando **__*update pessoa set senha = 'Messi' where cod = 10*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.5-01.PNG)
+
+____________________________________________________________________________________________
+
+
+- 9.5.6 Imagens referentes ao Comando **__*update equipamento set valor_locacao = 160 where valor_locacao = 150*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/9.5.6-01.PNG)
 
 ____________________________________________________________________________________________
 
