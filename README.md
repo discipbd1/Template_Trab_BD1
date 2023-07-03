@@ -1364,7 +1364,13 @@ ________________________________________________________________________________
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos 5 principais relatórios/resultados visando obter o melhor resultado possível.
 
-    
+____________________________________________________________________________________________
+
+- 9.10.4 Imagens referentes ao Comando **__**__**
+
+![UMA IMAGEM](./images/9.10-subconsultas/)
+
+____________________________________________________________________________________________    
 
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
