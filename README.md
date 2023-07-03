@@ -1199,13 +1199,62 @@ ________________________________________________________________________________
 #### 9.8	CONSULTAS COM LEFT, RIGHT E FULL JOIN (Mínimo 4)<br>
     a) Criar minimo 1 de cada tipo
 
+____________________________________________________________________________________________
+
+- 9.8.1 Imagens referentes ao Comando **__*select * from contato c left join contato_tipo d on d.cod = c.contato_tipo_cod*__**
+
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.1-01.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.1-02.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.1-03.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.1-04.PNG)
+
+____________________________________________________________________________________________
+
+- 9.8.2 Imagens referentes ao Comando **__*select * from funcionario i left join pessoa j on i.pessoa_cod = j.cod*__**
+
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.2-01.PNG)
+
+____________________________________________________________________________________________
+
+- 9.8.3 Imagens referentes ao Comando **__*select * from funcionario i right join pessoa j on i.pessoa_cod = j.cod*__**
+
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.3-01.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.3-02.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.3-03.PNG)
+
+____________________________________________________________________________________________
+
+- 9.8.4 Imagens referentes ao Comando **__*select * from funcionario i full join pessoa j on i.pessoa_cod = j.cod*__**
+
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.4-01.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.4-02.PNG)
+![UMA IMAGEM](./images/9.8-consultas-com-left-righ-full-join/9.8.4-03.PNG)
+
+____________________________________________________________________________________________
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join (caso não ocorra na base justificar e substituir por uma view)
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
+____________________________________________________________________________________________
+
+- 9.9.1 Imagens referentes ao Comando **__**__**
+
+![UMA IMAGEM](./images/9.9-consultas-com-self-join-e-view/)
+
+____________________________________________________________________________________________
+
 #### 9.10	SUBCONSULTAS (Mínimo 4)<br>
      a) Criar minimo 1 envolvendo GROUP BY
      b) Criar minimo 1 envolvendo algum tipo de junção
+
+____________________________________________________________________________________________
+
+- 9.10.1 Imagens referentes ao Comando **__**__**
+
+![UMA IMAGEM](./images/9.10-subconsultas/)
+
+____________________________________________________________________________________________
 
 ># Marco de Entrega 02: Do item 9.2 até o ítem 9.10<br>
 
