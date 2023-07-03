@@ -981,31 +981,84 @@ ________________________________________________________________________________
 
 - 9.4.2 Imagens referentes ao Comando **__*select * from pessoa where senha like 'x%'*__**
 
-![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-02.PNG)
 
 ____________________________________________________________________________________________
 
-- 9.4.3 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+- 9.4.3 Imagens referentes ao Comando **__*select * from pessoa where senha like '%x'**
 
-![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
-
-____________________________________________________________________________________________
-
-- 9.4.4 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
-
-![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-03.PNG)
 
 ____________________________________________________________________________________________
 
-- 9.4.5 Imagens referentes ao Comando **__*select * from equipamento where valor_locacao > 300 and valor_locacao < 400*__**
+- 9.4.4 Imagens referentes ao Comando **__*select * from contato where contato like '%@%'*__**
 
-![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-04.PNG)
 
+____________________________________________________________________________________________
+
+- 9.4.5 Imagens referentes ao Comando **__*select * from contato where contato like '%.com'*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.1-05.PNG)
+
+____________________________________________________________________________________________
+
+- 9.4.6 Imagens referentes ao Comando **__*select current_date - data_nasc as Qtd_dias_deVida, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.6-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.6-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.6-03.PNG)
+
+____________________________________________________________________________________________
+
+- 9.4.7 Imagens referentes ao Comando **__*select age(data_nasc, '2023-07-02' )as idade, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.7-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.7-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.7-03.PNG)
+
+____________________________________________________________________________________________
+
+- 9.4.8 Imagens referentes ao Comando **__*select date_part('year',(age(data_nasc, '2023-07-02' )))as idade_anos, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.8-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.8-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.8-03.PNG)
+____________________________________________________________________________________________
+
+- 9.4.9 Imagens referentes ao Comando **__*Select extract('year'from data_nasc)as ano_nascimento, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.9-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.9-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.9-03.PNG)
+
+____________________________________________________________________________________________
+
+- 9.4.10 Imagens referentes ao Comando **__*select date_part('year',data_nasc)as ano_nascimento, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.10-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.10-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.10-03.PNG)
+____________________________________________________________________________________________
+
+- 9.4.11 Imagens referentes ao Comando **__*select date_part('year',data_nasc)as ano_nascimento,( select now()) as data_atual, nome from pessoa*__**
+
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.11-01.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.11-02.PNG)
+![UMA IMAGEM](./images/9.4-consultas-que-usam-operadores-like-e-datas/9.4.11-03.PNG)
 ____________________________________________________________________________________________
 
 #### 9.5	INSTRUÇÕES APLICANDO ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
     a) Criar minimo 3 de exclusão
     b) Criar minimo 3 de atualização
+
+____________________________________________________________________________________________
+
+- 9.5.1 Imagens referentes ao Comando **__*select * from contato where contato like '%.com'*__**
+
+![UMA IMAGEM](./images/9.5-instrucoes-aplicando-atualizacao-e-exclusao-de-dados/)
+
+____________________________________________________________________________________________
 
 #### 9.6	CONSULTAS COM INNER JOIN E ORDER BY (Mínimo 6)<br>
     a) Uma junção que envolva todas as tabelas possuindo no mínimo 2 registros no resultado
