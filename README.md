@@ -40,16 +40,15 @@ ________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
     
-> - Quantidade de emprestimos ativos por pessoa.
+> - Relatório que retorna a quantidade de emprestimos ativos por pessoa.
 ____________________________________________________________________________________________ 
-> - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
+> - Relatório que retorna a quantidade de emprestimos avaliados por vendedor.
 ____________________________________________________________________________________________
-> - Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém) contendo nome, cpf, sexo, data de nascimento, endereço e matricula;
+> - Relatório que retorna a quantidade de cada tipo de contato utilizado.
 ____________________________________________________________________________________________
-> - Relatório que mostre os empréstimos dos clientes contendo status (de aprovação ou negação do pedido) data de validação, data de solicitação e valor da solicitação;
+> - Relatório que retorna a quantidade de cada tipo de equipamento.
 ____________________________________________________________________________________________
-> - Relatório que mostre os clientes com as seguintes informações: nome, cpf, sexo, data de nascimento e endereço; 
-
+> - Relatório que retorna a quantidade emprestimos mais requentes.
  ____________________________________________________________________________________________
  
 #### 4.3 TABELA DE DADOS DO SISTEMA:
