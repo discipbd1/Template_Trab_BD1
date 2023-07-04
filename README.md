@@ -40,7 +40,7 @@ ________________________________________________________________________________
     A Empresa MCMY precisa inicialmente dos seguintes relatórios:
 
     
-> - O sistema podera gerar um relatório sobre a quantidade de equipamentos em estoque, como a status de aprovação de empréstimo sobre um determinado equipamento para um cliete. Um relatório de nossos clientes e Funcionários;
+> - Quantidade de emprestimos ativos por pessoa.
 ____________________________________________________________________________________________ 
 > - Relatório que mostre os tipos de equipamentos, suas respectivas quantidades, modelo, marca, nome e data de fabricação;
 ____________________________________________________________________________________________
